@@ -1,0 +1,149 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+  <!-- require -->
+  <ltng:require scripts="/resource/LCLDS_JQuery/dist/jquery.min.js
+                        ,/resource/LCLDS_BootstrapSF1/dist/js/docs.js"
+                 styles="/resource/LCLDS_BootstrapSF1/dist/css/bootstrap.min.css
+                        ,/resource/LCLDS_BootstrapSF1/dist/css/docs.min.css
+                        ,/resource/SLDS080/assets/styles/salesforce-lightning-design-system.css
+                        ,/resource/LCLDS_CommonCss" />
+  <!-- components -->
+  <div class="lclds">
+    <c:LCLDS_Header />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="slds">
+            <div class="slds-button-group" role="group">
+              <button class="slds-button slds-button--neutral">Refresh</button>
+              <button class="slds-button slds-button--neutral">Edit</button>
+              <button class="slds-button slds-button--neutral">Save</button>
+              <button class="slds-button slds-button--icon-border-filled">
+                <span aura:id="svg_content1">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">More Actions</span>
+              </button>
+            </div>
+            <div class="slds-button-group demo-space" role="group">
+              <button class="slds-button slds-button--neutral">New Lead</button>
+              <button class="slds-button slds-button--icon-border-filled">
+                <span aura:id="svg_content2">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">More Actions</span>
+              </button>
+            </div>
+            <div class="slds-button-group demo-space" role="group">
+              <button class="slds-button slds-button--neutral" disabled="">Refresh</button>
+              <button class="slds-button slds-button--neutral">Edit</button>
+              <button class="slds-button slds-button--neutral slds-button--last">Save</button>
+              <button class="slds-button slds-button--icon-border-filled" disabled="">
+                <span aura:id="svg_content3">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">More Actions</span>
+              </button>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Buttons Group - Inverse" />
+            <div class="demo--inverse">
+              <div class="slds-button-group" role="group">
+                <button class="slds-button slds-button--inverse">Refresh</button>
+                <button class="slds-button slds-button--inverse">Edit</button>
+                <button class="slds-button slds-button--inverse">Save</button>
+                <button class="slds-button slds-button--icon-border">
+                  <span aura:id="svg_content4">
+                    <![CDATA[
+                    <svg aria-hidden="true" class="slds-button__icon slds-button__icon--inverse">
+                      <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                    </svg>
+                    ]]>
+                  </span>
+                  <span class="slds-assistive-text">View More</span>
+                </button>
+              </div>
+              <div class="slds-button-group demo-space" role="group">
+                <button class="slds-button slds-button--inverse" disabled="">Refresh</button>
+                <button class="slds-button slds-button--inverse">Edit</button>
+                <button class="slds-button slds-button--inverse slds-button--last">Save</button>
+                <button class="slds-button slds-button--icon-border" disabled="">
+                  <span aura:id="svg_content5">
+                    <![CDATA[
+                    <svg aria-hidden="true" class="slds-button__icon slds-button__icon--inverse">
+                      <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                    </svg>
+                    ]]>
+                  </span>
+                  <span class="slds-assistive-text">View More</span>
+                </button>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Buttons Group - Icon Group" />
+            <div class="slds-button-group" role="group">
+              <button class="slds-button slds-button--icon-border slds-not-selected">
+                <span aura:id="svg_content6">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#chart"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">Chart</span>
+              </button>
+              <button class="slds-button slds-button--icon-border slds-is-selected">
+                <span aura:id="svg_content7">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#filterList"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">Filter List</span>
+              </button>
+              <button class="slds-button slds-button--icon-more">
+                <span aura:id="svg_content8">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#sort"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">Sort</span>
+                <span aura:id="svg_content9">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon slds-button__icon--x-small">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">More</span>
+              </button>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+          </div><!-- ./slds end -->
+        </div>
+        <div class="col-md-3">
+          <c:LCLDS_SideMenu />
+        </div>
+      </div>
+    </div>
+  </div>
+</aura:component>
