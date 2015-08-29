@@ -1,0 +1,6 @@
+<aura:component >
+  <aura:attribute name="title" type="String" />
+  <div class="section-header">
+    <h1><ui:outputText value="{!v.title}" /></h1>
+  </div>
+</aura:component>

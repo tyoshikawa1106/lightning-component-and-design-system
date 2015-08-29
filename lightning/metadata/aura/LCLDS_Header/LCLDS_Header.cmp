@@ -1,0 +1,17 @@
+<aura:component >
+  <header class="navbar navbar-default navbar-static-top navbar-branded" role="banner" style="margin-bottom: 10px;">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="http://www.lightningdesignsystem.com/#role=regular&amp;status=all" target="_new" class="navbar-brand navbar-foundation-logo">
+          Lightning Design System
+        </a>
+      </div>
+    </div>
+  </header>
+</aura:component>

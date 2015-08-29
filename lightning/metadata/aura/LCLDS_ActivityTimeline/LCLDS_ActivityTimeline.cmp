@@ -1,0 +1,249 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+    <!-- require -->
+  <ltng:require scripts="/resource/LCLDS_JQuery/dist/jquery.min.js
+                                        ,/resource/LCLDS_BootstrapSF1/dist/js/docs.js"
+                          styles="/resource/LCLDS_BootstrapSF1/dist/css/bootstrap.min.css
+                                       ,/resource/LCLDS_BootstrapSF1/dist/css/docs.min.css
+                                       ,/resource/SLDS080/assets/styles/salesforce-lightning-design-system.css
+                                       ,/resource/LCLDS_CommonCss" />
+  <!-- components -->
+  <div class="lclds">
+    <c:LCLDS_Header />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="slds">
+              <c:LCLDS_SectionHeader title="Activity Timeline" />
+              <ul class="slds-timeline">
+                <li class="slds-timeline__item">
+                  <span class="slds-assistive-text">Task</span>
+                  <div class="slds-media slds-media--reverse">
+                    <div class="slds-media__figure">
+                      <div class="slds-timeline__actions">
+                        <p class="slds-timeline__date">Feb 24</p>
+                        <button class="slds-button slds-button--icon-border-filled">
+                          <span aura:id="svg_content1">
+                            <![CDATA[
+                            <svg aria-hidden="true" class="slds-button__icon">
+                              <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+                            </svg>
+                            ]]>
+                          </span>
+                          <span class="slds-assistive-text">Switch</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="slds-media__body">
+                      <div class="slds-media slds-media--timeline slds-timeline__media--task">
+                        <div class="slds-media__figure">
+                          <span aura:id="svg_content2">
+                            <![CDATA[
+                            <svg aria-hidden="true" class="slds-icon slds-icon-standard-task slds-timeline__icon">
+                              <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#task"></use>
+                            </svg>
+                            ]]>
+                          </span>
+                        </div>
+                        <div class="slds-media__body">
+                          <div class="slds-media slds-tile slds-media--small">
+                            <div class="slds-media__figure">
+                              <label class="slds-checkbox" for="mark-complete">
+                                <input name="checkbox" type="checkbox" id="mark-complete" />
+                                <span class="slds-checkbox--faux"></span>
+                                <span class="slds-form-element__label slds-assistive-text">mark-complete</span>
+                              </label>
+                            </div>
+                            <div class="slds-media__body">
+                              <p class="slds-tile__title slds-truncate"><a href="#">Review proposals for EBC deck with larger team and have marketing review this</a></p>
+                              <ul class="slds-tile__detail slds-list--horizontal slds-text-body--small">
+                                <li class="slds-list__item slds-m-right--large">
+                                  <dl class="slds-dl--inline">
+                                    <dt class="slds-dl--inline__label">Contact:</dt>
+                                    <dd class="slds-dl--inline__detail"><a href="#">Lei Chan</a></dd>
+                                  </dl>
+                                </li>
+                                <li class="slds-list__item">
+                                  <dl class="slds-dl--inline">
+                                    <dt class="slds-dl--inline__label">Assigned to:</dt>
+                                    <dd class="slds-dl--inline__detail"><a href="#">Betty Mason</a></dd>
+                                  </dl>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="slds-timeline__item">
+                  <span class="slds-assistive-text">Event</span>
+                  <div class="slds-media slds-media--reverse">
+                    <div class="slds-media__figure">
+                      <div class="slds-timeline__actions">
+                        <p class="slds-timeline__date">Feb 24</p>
+                        <button class="slds-button slds-button--icon-border-filled">
+                          <span aura:id="svg_content3">
+                            <![CDATA[
+                            <svg aria-hidden="true" class="slds-button__icon">
+                              <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+                            </svg>
+                            ]]>
+                          </span>
+                          <span class="slds-assistive-text">Switch</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="slds-media__body">
+                      <div class="slds-media slds-media--timeline slds-timeline__media--event">
+                        <div class="slds-media__figure">
+                          <span aura:id="svg_content4">
+                            <![CDATA[
+                            <svg aria-hidden="true" class="slds-icon slds-icon-standard-event slds-timeline__icon">
+                              <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#event"></use>
+                            </svg>
+                            ]]>
+                          </span>
+                        </div>
+                        <div class="slds-media__body">
+                          <p><a href="#">Company One — EBC Meeting</a></p>
+                          <p class="slds-truncate">Let&#x27;s get together to review the theater&#x27;s layout and facilities. We&#x27;ll also discuss potential things that truncate at a certain width.</p>
+                          <ul class="slds-list--horizontal slds-text-body--small">
+                            <li class="slds-list__item slds-m-right--large">
+                              <dl class="slds-dl--inline">
+                                <dt class="slds-dl--inline__label">Time:</dt>
+                                <dd class="slds-dl--inline__detail"><a href="#">Feb 23, 2015 11:00am–12:00pm</a></dd>
+                              </dl>
+                            </li>
+                            <li class="slds-list__item">
+                              <dl class="slds-dl--inline">
+                                <dt class="slds-dl--inline__label">Location:</dt>
+                                <dd class="slds-dl--inline__detail"><a href="#">300 Pike St, San Francisco CA</a></dd>
+                              </dl>
+                            </li>
+                          </ul>
+                          <dl class="slds-dl--inline slds-text-body--small">
+                            <dt class="slds-dl--inline__label">Name:</dt>
+                            <dd class="slds-dl--inline__detail"><a href="#">Lei Chan</a>, <a href="#">Jason Dewar</a>, <a href="#">Gwen Jones</a> and <a href="#">Pete Schaffer</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="slds-timeline__item">
+                  <span class="slds-assistive-text">Call</span>
+                  <div class="slds-media slds-media--reverse">
+                    <div class="slds-media__figure">
+                      <div class="slds-timeline__actions">
+                        <p class="slds-timeline__date">Feb 24</p>
+                        <button class="slds-button slds-button--icon-border-filled">
+                          <span aura:id="svg_content5">
+                            <![CDATA[
+                            <svg aria-hidden="true" class="slds-button__icon">
+                              <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+                            </svg>
+                            ]]>
+                          </span>
+                          <span class="slds-assistive-text">Switch</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="slds-media__body">
+                      <div class="slds-media slds-media--timeline slds-timeline__media--call">
+                        <div class="slds-media__figure">
+                          <span aura:id="svg_content6">
+                            <![CDATA[
+                            <svg aria-hidden="true" class="slds-icon slds-icon-standard-log-a-call slds-timeline__icon">
+                              <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#log_a_call"></use>
+                            </svg>
+                            ]]>
+                          </span>
+                        </div>
+                        <div class="slds-media__body">
+                          <p><a href="#">Mobile conversation on Monday</a></p>
+                          <p class="slds-truncate">Lei seemed interested in closing this deal quickly! Let&#x27;s move move.</p>
+                          <ul class="slds-list--horizontal slds-text-body--small">
+                            <li class="slds-list__item slds-m-right--large">
+                              <dl class="slds-dl--inline">
+                                <dt class="slds-dl--inline__label">Name:</dt>
+                                <dd class="slds-dl--inline__detail"><a href="#">Lei Chan</a></dd>
+                              </dl>
+                            </li>
+                            <li class="slds-list__item">
+                              <dl class="slds-dl--inline">
+                                <dt class="slds-dl--inline__label">Assigned to:</dt>
+                                <dd class="slds-dl--inline__detail"><a href="#">Betty Mason</a></dd>
+                              </dl>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="slds-timeline__item">
+                  <span class="slds-assistive-text">Email</span>
+                  <div class="slds-media slds-media--reverse">
+                    <div class="slds-media__figure">
+                      <div class="slds-timeline__actions">
+                        <p class="slds-timeline__date">Feb 24</p>
+                        <button class="slds-button slds-button--icon-border-filled">
+                          <span aura:id="svg_content7">
+                            <![CDATA[
+                              <svg aria-hidden="true" class="slds-button__icon">
+                                <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+                              </svg>
+                            ]]>
+                          </span>
+                          <span class="slds-assistive-text">Switch</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="slds-media__body">
+                      <div class="slds-media slds-media--timeline slds-timeline__media--email">
+                        <div class="slds-media__figure">
+                          <span aura:id="svg_content8">
+                            <![CDATA[
+                            <svg aria-hidden="true" class="slds-icon slds-icon-standard-email slds-timeline__icon">
+                              <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#email"></use>
+                            </svg>
+                            ]]>
+                          </span>
+                        </div>
+                        <div class="slds-media__body">
+                          <div class="slds-tile">
+                            <p class="slds-tile__title slds-truncate"><a href="#">Updated Proposals</a></p>
+                            <div class="slds-tile__detail">
+                              <p class="slds-truncate">Hi guys, Thanks for meeting with the team today and going through the proposals we saw. This goes on until it&#x27;s truncated.</p>
+                              <ul class="slds-list--horizontal slds-text-body--small">
+                                <li class="slds-list__item slds-m-right--large">
+                                  <dl class="slds-dl--inline">
+                                    <dt class="slds-dl--inline__label">To:</dt>
+                                    <dd class="slds-dl--inline__detail"><a href="#">Lei Chan</a></dd>
+                                  </dl>
+                                </li>
+                                <li class="slds-list__item">
+                                  <dl class="slds-dl--inline">
+                                    <dt class="slds-dl--inline__label">From:</dt>
+                                    <dd class="slds-dl--inline__detail"><a href="#">Jason Dewar</a></dd>
+                                  </dl>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div><!-- ./slds end -->
+          </div>
+          <div class="col-md-3">
+            <c:LCLDS_SideMenu />
+          </div>
+        </div>
+      </div>
+  </div>
+</aura:component>
