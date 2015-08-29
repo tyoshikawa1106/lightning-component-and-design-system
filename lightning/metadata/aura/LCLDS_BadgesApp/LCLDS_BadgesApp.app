@@ -8,5 +8,5 @@
   <meta name="keywords" content="" />
   <meta name="author" content="Ryan Foster" />
   <!-- components -->
-  <c:LCLDS_ActivityTimeline />
+  <c:LCLDS_Badges />
 </aura:application>
