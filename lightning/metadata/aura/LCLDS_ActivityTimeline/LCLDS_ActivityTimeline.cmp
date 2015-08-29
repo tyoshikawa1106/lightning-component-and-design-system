@@ -1,11 +1,11 @@
 <aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
-    <!-- require -->
+  <!-- require -->
   <ltng:require scripts="/resource/LCLDS_JQuery/dist/jquery.min.js
-                                        ,/resource/LCLDS_BootstrapSF1/dist/js/docs.js"
-                          styles="/resource/LCLDS_BootstrapSF1/dist/css/bootstrap.min.css
-                                       ,/resource/LCLDS_BootstrapSF1/dist/css/docs.min.css
-                                       ,/resource/SLDS080/assets/styles/salesforce-lightning-design-system.css
-                                       ,/resource/LCLDS_CommonCss" />
+                        ,/resource/LCLDS_BootstrapSF1/dist/js/docs.js"
+                 styles="/resource/LCLDS_BootstrapSF1/dist/css/bootstrap.min.css
+                        ,/resource/LCLDS_BootstrapSF1/dist/css/docs.min.css
+                        ,/resource/SLDS080/assets/styles/salesforce-lightning-design-system.css
+                        ,/resource/LCLDS_CommonCss" />
   <!-- components -->
   <div class="lclds">
     <c:LCLDS_Header />

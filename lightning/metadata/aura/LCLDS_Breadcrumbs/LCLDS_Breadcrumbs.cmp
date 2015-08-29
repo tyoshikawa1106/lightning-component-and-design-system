@@ -14,10 +14,13 @@
           <div class="col-md-9">
             <div class="slds">
               <c:LCLDS_SectionHeader title="Badges" />
-              <span class="slds-badge">Label</span>
-              <span class="slds-badge slds-theme--default">Label</span>
-              <span class="slds-badge slds-theme--shade">Label</span>
-              <span class="slds-badge slds-theme--inverse">Label</span>
+              <nav role="navigation">
+                <p id="bread-crumb-label" class="slds-assistive-text">You are here:</p>
+                <ol class="slds-breadcrumb slds-list--horizontal" aria-labelledby="bread-crumb-label">
+                  <li class="slds-list__item slds-text-heading--label"><a href="#">Parent Entity</a></li>
+                  <li class="slds-list__item slds-text-heading--label"><a href="#">Parent Record Name</a></li>
+                </ol>
+              </nav>
               <!-- Margin -->
               <div class="components-margin" />
             </div><!-- ./slds end -->
