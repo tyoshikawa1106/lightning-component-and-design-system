@@ -13,11 +13,93 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Grid System - Automatic Sizing" />
+            <div class="demo-container">
+              <div class="slds-grid">
+                <div class="slds-col">Contents go here.</div>
+                <div class="slds-col">Contents go here.</div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Grid System - Manual Sizing" />
+            <div class="demo-container">
+              <div class="slds-grid slds-wrap">
+                <nav class="slds-col slds-size--1-of-1">Header</nav>
+                <aside class="slds-col slds-size--1-of-2 slds-medium-size--5-of-6 slds-large-size--8-of-12">Aside</aside>
+                <aside class="slds-col slds-size--1-of-2 slds-medium-size--1-of-6 slds-large-size--4-of-12">Aside</aside>
+                <section class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-3">Complementarity</section>
+                <section class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-3">Complementarity</section>
+                <footer class="slds-col slds-size--1-of-1 slds-medium-size--1-of-1 slds-large-size--1-of-3">
+                  <div class="slds-grid slds-wrap">
+                    <div class="slds-col slds-size--1-of-2 slds-medium-size--1-of-1 slds-large-size--6-of-12">Content Info</div>
+                    <div class="slds-col slds-size--1-of-2 slds-medium-size--1-of-1 slds-large-size--6-of-12">Content Info</div>
+                  </div>
+                </footer>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Grid System - Containers" />
+            <div class="demo-container">
+              <div class="container">Contents go here.</div>
+              <div class="slds-container--small">Contents go here.</div>
+              <div class="slds-container--medium">Contents go here.</div>
+              <div class="slds-container--large">Contents go here.</div>
+              <div class="slds-container--fluid">Contents go here.</div>
+              <div class="slds-container--left slds-container--small">Contents go here.</div>
+              <div class="slds-container--center slds-container--small">Contents go here.</div>
+              <div class="slds-container--right slds-container--small">Contents go here.</div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Grid System - Horizontal Alignment Center" />
+            <div class="demo-container">
+              <div class="slds-grid slds-grid--align-center">
+                <div class="slds-col--padded">Content determines the width unless otherwise set</div>
+                <div class="slds-col--padded">1</div>
+                <div class="slds-col--padded">1</div>
+                <div class="slds-col--padded">1</div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Grid System - Horizontal Alignment Spread" />
+            <div class="demo-container">
+              <div class="slds-grid slds-grid--align-spread">
+                <div class="slds-col--padded">Start Line</div>
+                <div class="slds-col--padded">In Between</div>
+                <div class="slds-col--padded">In Between</div>
+                <div class="slds-col--padded">Finish Line</div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Grid System - Vertical Alignment" />
+            <div class="demo-container">
+              <div class="slds-grid slds-grid--align-spread" style="height:150px;">
+                <div class="slds-align-top slds-col--padded">Top Align</div>
+                <div class="slds-align-middle slds-col--padded">Middle Align</div>
+                <div class="slds-align-middle slds-col--padded">Middle Align</div>
+                <div class="slds-align-bottom slds-col--padded">Bottom Align</div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Grid System - Order" />
+            <div class="demo-container">
+              <div class="slds-grid slds-wrap">
+                <nav class="slds-col slds-size--1-of-1 slds-small-order--2 slds-medium-order--1">1</nav>
+                <div class="slds-col slds-size--1-of-2 slds-small-order--1 slds-medium-order--3">2</div>
+                <aside class="slds-col slds-size--1-of-2 slds-small-order--1 slds-medium-order--2">3</aside>
+              </div>
+            </div>
             <!-- Margin -->
             <div class="components-margin" />
           </div><!-- ./slds end -->

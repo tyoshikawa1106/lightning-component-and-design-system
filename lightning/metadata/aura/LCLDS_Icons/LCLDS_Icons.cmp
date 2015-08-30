@@ -13,11 +13,115 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Icons - Base" />
+            <span>
+              <span aura:id="svg_content1">
+                <![CDATA[
+                <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon-text-default">
+                  <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#announcement"></use>
+                </svg>
+                ]]>
+              </span>
+              <span class="slds-assistive-text">Announcement Icon</span>
+            </span>
+            <span class="slds-icon__container slds-icon__container--circle slds-icon-action-description">
+              <span aura:id="svg_content2">
+                <![CDATA[
+                <svg aria-hidden="true" class="slds-icon slds-icon--small">
+                  <use xlink:href="/resource/SLDS080/assets/icons/action-sprite/svg/symbols.svg#description"></use>
+                </svg>
+                ]]>
+              </span>
+              <span class="slds-assistive-text">Description Icon</span>
+            </span>
+            <span class="slds-icon__container slds-icon-standard-account">
+              <span aura:id="svg_content3">
+                <![CDATA[
+                <svg aria-hidden="true" class="slds-icon">
+                  <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                </svg>
+                ]]>
+              </span>
+              <span class="slds-assistive-text">Account Icon</span>
+            </span>
+            <span class="slds-icon__container">
+              <span aura:id="svg_content4">
+                <![CDATA[
+                <svg aria-hidden="true" class="slds-icon">
+                  <use xlink:href="/resource/SLDS080/assets/icons/doctype-sprite/svg/symbols.svg#xml"></use>
+                </svg>
+                ]]>
+              </span>
+              <span class="slds-assistive-text">Doctype Icon</span>
+            </span>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Icons - Colors" />
+            <span class="slds-icon__container slds-icon-standard-case">
+              <span aura:id="svg_content5">
+                <![CDATA[
+                <svg aria-hidden="true" class="slds-icon">
+                  <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#case"></use>
+                </svg>
+                ]]>
+              </span>
+              <span class="slds-assistive-text">Case icon </span>
+            </span>
+            <span class="slds-icon__container">
+              <span aura:id="svg_content6">
+                <![CDATA[
+                <svg aria-hidden="true" class="slds-icon slds-icon-text-default slds-icon--small">
+                  <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#lock"></use>
+                </svg>
+                ]]>
+              </span>
+              <span class="slds-assistive-text">Lock Icon</span>
+            </span>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Icons - Sizes" />
+            <span class="slds-icon__container">
+              <span aura:id="svg_content7">
+                <![CDATA[
+                <svg aria-hidden="true" class="slds-icon slds-icon-text-warning slds-icon--x-small">
+                  <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#warning"></use>
+                </svg>
+                ]]>
+              </span>
+              <span class="slds-assistive-text">Warning Icon</span>
+            </span>
+            <span class="slds-icon__container slds-icon-standard-account">
+              <span aura:id="svg_content8">
+                <![CDATA[
+                <svg aria-hidden="true" class="slds-icon slds-icon--small">
+                  <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                </svg>
+                ]]>
+              </span>
+              <span class="slds-assistive-text">Standard Account Icon</span>
+            </span>
+            <span class="slds-icon__container slds-icon-standard-case">
+              <span aura:id="svg_content9">
+                <![CDATA[
+                <svg aria-hidden="true" class="slds-icon">
+                  <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#case"></use>
+                </svg>
+                ]]>
+              </span>
+              <span class="slds-assistive-text">Small Case Icon</span>
+            </span>
+            <span class="slds-icon__container slds-icon-standard-solution">
+              <span aura:id="svg_content10">
+                <![CDATA[
+                <svg aria-hidden="true" class="slds-icon slds-icon--large">
+                  <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#solution"></use>
+                </svg>
+                ]]>
+              </span>
+              <span class="slds-assistive-text">Large Solution Icon</span>
+            </span>
             <!-- Margin -->
             <div class="components-margin" />
           </div><!-- ./slds end -->

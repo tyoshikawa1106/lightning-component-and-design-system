@@ -13,11 +13,250 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Forms - Input" />
+            <div class="slds-form-element">
+              <label class="slds-form-element__label" for="sample1">Text Input</label>
+              <div class="slds-form-element__control">
+                <input id="sample1" class="slds-input" type="text" placeholder="Placeholder Text" />
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Forms - Textarea" />
+            <div class="slds-form-element">
+              <label class="slds-form-element__label" for="sample2">Textarea Label</label>
+              <div class="slds-form-element__control">
+                <textarea id="sample2" class="slds-textarea" placeholder="Placeholder Text"></textarea>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Forms - Radio" />
+            <fieldset class="slds-form-element">
+              <legend class="slds-form-element__label slds-form-element__label--top">Options</legend>
+              <div class="slds-form-element__control">
+                <label class="slds-radio" for="lead">
+                  <input type="radio" name="options" id="lead" />
+                  <span class="slds-radio--faux"></span>
+                  <span class="slds-form-element__label">Lead Generation</span>
+                </label>
+                <label class="slds-radio" for="education">
+                  <input type="radio" name="options" id="education" />
+                  <span class="slds-radio--faux"></span>
+                  <span class="slds-form-element__label">Education Leads</span>
+                </label>
+              </div>
+            </fieldset>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Forms - Checkbox" />
+            <div class="slds-form-element">
+              <label class="slds-checkbox" for="checkboxSample1">
+                <input name="checkbox" type="checkbox" id="checkboxSample1" />
+                <span class="slds-checkbox--faux"></span>
+                <span class="slds-form-element__label">Checkbox Label</span>
+              </label>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Forms - Select" />
+            <div class="slds-form-element">
+              <label class="slds-form-element__label" for="selectSample1">Select Label</label>
+              <div class="slds-form-element__control">
+                <select id="selectSample1" class="slds-select">
+                  <option>Option One</option>
+                  <option>Option Two</option>
+                  <option>Option Three</option>
+                </select>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Forms - Horizontal Form" />
+            <div class="slds-form--horizontal">
+              <div class="slds-form-element">
+                <label class="slds-form-element__label" for="inputSample2">Text Input</label>
+                <div class="slds-form-element__control">
+                  <input id="inputSample2" class="slds-input" type="text" placeholder="Placeholder Text" />
+                </div>
+              </div>
+              <div class="slds-form-element">
+                <label class="slds-form-element__label" for="textareaSample2">Textarea Label</label>
+                <div class="slds-form-element__control">
+                  <textarea id="textareaSample2" class="slds-textarea"></textarea>
+                </div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Forms - Stacked Form" />
+            <div class="slds-form--stacked">
+              <div class="slds-form-element">
+                <label class="slds-form-element__label" for="inputSample3">Text Input</label>
+                <div class="slds-form-element__control">
+                  <input id="inputSample3" class="slds-input" type="text" placeholder="Placeholder Text" />
+                </div>
+              </div>
+              <div class="slds-form-element">
+                <label class="slds-form-element__label" for="textareaSample3">Textarea Label</label>
+                <div class="slds-form-element__control">
+                  <textarea id="textareaSample3" class="slds-textarea"></textarea>
+                </div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Forms - Inline Form" />
+            <form class="slds-form--inline">
+              <div class="slds-form-element">
+                <label class="slds-form-element__label" for="name">Name</label>
+                <div class="slds-form-element__control">
+                  <input id="name" class="slds-input" type="text" placeholder="John Smith" />
+                </div>
+              </div>
+              <div class="slds-form-element">
+                <label class="slds-form-element__label" for="email">Email</label>
+                <div class="slds-form-element__control">
+                  <input id="email" class="slds-input" type="text" placeholder="jsmith@salesforce.com" />
+                </div>
+              </div>
+              <button class="slds-button slds-button--brand" type="button">Send</button>
+            </form>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Forms - Compound Form" />
+            <fieldset class="slds-form--compound">
+              <legend class="slds-form-element__label">Location</legend>
+              <div class="form-element__group">
+                <div class="slds-form-element__row">
+                  <label class="slds-form-element__control slds-size--1-of-2">
+                    <small class="slds-form-element__helper">Latitude</small>
+                    <input class="slds-input" type="text" />
+                  </label>
+                  <label class="slds-form-element__control slds-size--1-of-2">
+                    <small class="slds-form-element__helper">Longitude</small>
+                    <input class="slds-input" type="text" />
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset class="slds-form--compound">
+              <legend class="slds-form-element__label">Address</legend>
+              <div class="form-element__group">
+                <div class="slds-form-element__row">
+                  <label class="slds-form-element__control slds-size--1-of-1">
+                    <small class="slds-form-element__helper">Street</small>
+                    <input class="slds-input" type="text" />
+                  </label>
+                </div>
+                <div class="slds-form-element__row">
+                  <label class="slds-form-element__control slds-size--1-of-2">
+                    <small class="slds-form-element__helper">City</small>
+                    <input class="slds-input" type="text" />
+                  </label>
+                  <label class="slds-form-element__control slds-size--1-of-2">
+                    <small class="slds-form-element__helper">State</small>
+                    <input class="slds-input" type="text" />
+                  </label>
+                </div>
+                <div class="slds-form-element__row">
+                  <label class="slds-form-element__control slds-size--1-of-2">
+                    <small class="slds-form-element__helper">ZIP Code</small>
+                    <input class="slds-input" type="text" />
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Forms - Read Only State" />
+            <div class="slds-form-element">
+              <span class="slds-form-element__label">Amount</span>
+              <div class="slds-form-element__control">
+                <span class="slds-form-element__static">Read Only</span>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Forms - Validation State" />
+            <form class="slds-form--stacked">
+              <div class="slds-form-element slds-has-error slds-is-required">
+                <label class="slds-form-element__label" for="email">Input Error</label>
+                <div class="slds-form-element__control">
+                  <input id="email" class="slds-input" type="email" aria-describedby="errorSample1" required="" />
+                  <span id="errorSample1" class="slds-form-element__help">This field is required</span>
+                </div>
+              </div>
+              <div class="slds-form-element slds-has-error">
+                <label class="slds-checkbox" for="errorSample2">
+                  <input name="checkbox" type="checkbox" id="errorSample2" />
+                  <span class="slds-checkbox--faux"></span>
+                  <span class="slds-form-element__label">Checkbox Error</span>
+                </label>
+              </div>
+              <div class="slds-form-element slds-has-error">
+                <label class="slds-radio" for="errorSample3">
+                  <input type="radio" name="radio" id="errorSample3" />
+                  <span class="slds-radio--faux"></span>
+                  <span class="slds-form-element__label">Radio Error</span>
+                </label>
+              </div>
+            </form>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Forms - Sizing" />
+            <div class="slds-form-element">
+              <label class="slds-form-element__label form-element__label--small" for="inputSampleSmall">Input Label Small</label>
+              <div class="slds-form-element__control">
+                <input id="inputSampleSmall" class="slds-input slds-input--small" type="text" />
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Forms - Field Level Help" />
+            <form class="slds-form--stacked">
+              <div class="slds-form-element">
+                <div class="slds-form-element__label slds-m-bottom--x-small">
+                  <button class="slds-button slds-button--icon-bare slds-m-right--xx-small">
+                    <span aura:id="svg_content1">
+                      <![CDATA[
+                      <svg aria-hidden="true" class="slds-button__icon">
+                        <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#info"></use>
+                      </svg>
+                      ]]>
+                    </span>
+                    <span class="slds-assistive-text">Help</span>
+                  </button>
+                  <label class="slds-align-middle" for="form-help">Text Label</label>
+                </div>
+                <div class="slds-form-element__control">
+                  <input id="form-help" class="slds-input" type="text" placeholder="Field Level Help" aria-describedby="help" />
+                </div>
+              </div>
+            </form>
+            <div id="help" class="slds-popover slds-hide">
+              <div class="slds-tooltip" role="tooltip">
+                <div class="slds-tooltip__content">
+                  <div class="slds-tooltip__body">
+                    <div>
+                      <p>Sit nulla est ex deserunt exercitation anim occaecat. Nostrud ullamco deserunt aute id consequat veniam incididunt duis in sint irure nisi. Mollit officia cillum Lorem ullamco minim nostrud elit officia tempor esse quis.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <!-- Margin -->
             <div class="components-margin" />
           </div><!-- ./slds end -->

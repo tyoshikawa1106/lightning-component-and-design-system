@@ -13,11 +13,33 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Floats - Float Left" />
+            <section class="slds-clearfix">
+              <div class="slds-float--left">
+                <p>I&#x27;m floooaaaating</p>
+              </div>
+            </section>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Floats - Float Right" />
+            <section class="slds-clearfix">
+              <div class="slds-float--right">
+                <p>I&#x27;m floooaaaating</p>
+              </div>
+            </section>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Floats - Clearfix" />
+            <section class="slds-clearfix">
+              <div class="slds-float--left">
+                <p>I&#x27;m floooaaaating</p>
+              </div>
+              <div class="slds-float--right">
+                <p>I&#x27;m floooaaaating</p>
+              </div>
+            </section>
             <!-- Margin -->
             <div class="components-margin" />
           </div><!-- ./slds end -->
