@@ -1,0 +1,31 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+  <!-- require -->
+  <ltng:require scripts="/resource/LCLDS_JQuery/dist/jquery.min.js
+                        ,/resource/LCLDS_BootstrapSF1/dist/js/docs.js"
+                 styles="/resource/LCLDS_BootstrapSF1/dist/css/bootstrap.min.css
+                        ,/resource/LCLDS_BootstrapSF1/dist/css/docs.min.css
+                        ,/resource/SLDS080/assets/styles/salesforce-lightning-design-system.css
+                        ,/resource/LCLDS_CommonCss" />
+  <!-- components -->
+  <div class="lclds">
+    <c:LCLDS_Header />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="slds">
+            <c:LCLDS_SectionHeader title="Badges" />
+            <span class="slds-badge">Label</span>
+            <span class="slds-badge slds-theme--default">Label</span>
+            <span class="slds-badge slds-theme--shade">Label</span>
+            <span class="slds-badge slds-theme--inverse">Label</span>
+            <!-- Margin -->
+            <div class="components-margin" />
+          </div><!-- ./slds end -->
+        </div>
+        <div class="col-md-3">
+          <c:LCLDS_SideMenu />
+        </div>
+      </div>
+    </div>
+  </div>
+</aura:component>
