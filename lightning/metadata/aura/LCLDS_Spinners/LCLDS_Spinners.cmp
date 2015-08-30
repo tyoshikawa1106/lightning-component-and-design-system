@@ -13,11 +13,72 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Spinners - Base" />
+            <div class="slds-spinner--small">
+              <img src="/resource/SLDS080/assets/images/spinners/slds_spinner.gif" alt="Loading..." />
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Spinners - Medium" />
+            <div class="slds-spinner--medium">
+              <img src="/resource/SLDS080/assets/images/spinners/slds_spinner.gif" alt="Loading..." />
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Spinners - Large" />
+            <div class="slds-spinner--large">
+              <img src="/resource/SLDS080/assets/images/spinners/slds_spinner.gif" alt="Loading..." />
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Spinners - Brand Small" />
+            <div class="slds-spinner--small">
+              <img src="/resource/SLDS080/assets/images/spinners/slds_spinner_brand.gif" alt="Loading..." />
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Spinners - Brand Medium" />
+            <div class="slds-spinner--medium">
+              <img src="/resource/SLDS080/assets/images/spinners/slds_spinner_brand.gif" alt="Loading..." />
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Spinners - Brand Large" />
+            <div class="slds-spinner--large">
+              <img src="/resource/SLDS080/assets/images/spinners/slds_spinner_brand.gif" alt="Loading..." />
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Spinners - Inverse Small" />
+            <div class="demo--inverse">
+              <div class="slds-spinner--small">
+                <img src="/resource/SLDS080/assets/images/spinners/slds_spinner_inverse.gif" alt="Loading..." />
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Spinners - Inverse Medium" />
+            <div class="demo--inverse">
+              <div class="slds-spinner--medium">
+                <img src="/resource/SLDS080/assets/images/spinners/slds_spinner_inverse.gif" alt="Loading..." />
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Spinners - Inverse Large" />
+            <div class="demo--inverse">
+              <div class="slds-spinner--large">
+                <img src="/resource/SLDS080/assets/images/spinners/slds_spinner_inverse.gif" alt="Loading..." />
+              </div>
+            </div>
             <!-- Margin -->
             <div class="components-margin" />
           </div><!-- ./slds end -->

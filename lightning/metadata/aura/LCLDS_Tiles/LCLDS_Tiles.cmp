@@ -13,11 +13,348 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Tiles - Base" />
+            <div class="slds-tile">
+              <p class="slds-tile__title slds-truncate"><a href="#">Salesforce UX</a></p>
+              <div class="slds-tile__detail slds-text-body--small">
+                <p class="slds-truncate">26 Members</p>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Tiles - With Icon" />
+            <div class="slds-media slds-tile">
+              <div class="slds-media__figure">
+                <span aura:id="svg_content1">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-icon slds-icon-standard-groups">
+                    <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#groups"></use>
+                  </svg>
+                  ]]>
+                </span>
+              </div>
+              <div class="slds-media__body">
+                <p class="slds-tile__title slds-truncate"><a href="#">Salesforce UX</a></p>
+                <div class="slds-tile__detail slds-text-body--small">
+                  <p class="slds-truncate">26 Members</p>
+                </div>
+              </div>
+            </div>
+            <div class="slds-media slds-tile">
+              <div class="slds-media__figure">
+                <span class="slds-avatar slds-avatar--circle slds-avatar--small">
+                  <img src="/resource/SLDS080/assets/images/avatar2.jpg" alt="portrait" />
+                </span>
+              </div>
+              <div class="slds-media__body">
+                <p class="slds-tile__title slds-truncate"><a href="#">Lexee L. Jackson</a></p>
+                <ul class="slds-tile__detail slds-list--horizontal slds-has-dividers slds-text-body--small">
+                  <li class="slds-truncate slds-list__item">VP, Marketing</li>
+                  <li class="slds-truncate slds-list__item">Decision Maker</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Tiles - With Actions" />
+            <div class="slds-tile slds-hint-parent">
+              <div class="slds-grid slds-grid--align-spread slds-has-flexi-truncate">
+                <p class="slds-tile__title slds-truncate"><a href="#">Salesforce UX</a></p>
+                <button class="slds-button slds-button--icon-border-filled slds-button--icon-border-small slds-shrink-none">
+                  <span aura:id="svg_content2">
+                    <![CDATA[
+                    <svg aria-hidden="true" class="slds-button__icon slds-button__icon--hint slds-button__icon--small">
+                      <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                    </svg>
+                    ]]>
+                  </span>
+                  <span class="slds-assistive-text">Show More</span>
+                </button>
+              </div>
+              <div class="slds-tile__detail slds-text-body--small">
+                <p class="slds-truncate">26 Members</p>
+              </div>
+            </div>
+            <div class="slds-media slds-tile slds-hint-parent">
+              <div class="slds-media__figure">
+                <span aura:id="svg_content3">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-icon slds-icon-standard-groups">
+                    <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#groups"></use>
+                  </svg>
+                  ]]>
+                </span>
+              </div>
+              <div class="slds-media__body">
+                <div class="slds-grid slds-grid--align-spread slds-has-flexi-truncate">
+                  <p class="slds-tile__title slds-truncate"><a href="#">Salesforce UX</a></p>
+                  <button class="slds-button slds-button--icon-border-filled slds-button--icon-border-small slds-shrink-none">
+                    <span aura:id="svg_content4">
+                      <![CDATA[
+                      <svg aria-hidden="true" class="slds-button__icon slds-button__icon--hint slds-button__icon--small">
+                        <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                      </svg>
+                      ]]>
+                    </span>
+                    <span class="slds-assistive-text">Show More</span>
+                  </button>
+                </div>
+                <div class="slds-tile__detail slds-text-body--small">
+                  <p class="slds-truncate">26 Members</p>
+                </div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Tiles - With Badge" />
+            <div class="slds-tile">
+              <div class="slds-grid slds-grid--align-spread slds-has-flexi-truncate">
+                <p class="slds-tile__title slds-truncate"><a href="#">Platinum Package</a></p>
+                <p>$200,000</p>
+              </div>
+              <ul class="slds-tile__detail slds-list--horizontal slds-has-dividers slds-text-body--small">
+                <li class="slds-truncate slds-list__item">25 Units</li>
+                <li class="slds-truncate slds-list__item">$8,000 p/m</li>
+              </ul>
+            </div>
+            <div class="slds-media slds-tile">
+              <div class="slds-media__figure">
+                <span aura:id="svg_content5">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-icon slds-icon-standard-contact">
+                    <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#contact"></use>
+                  </svg>
+                  ]]>
+                </span>
+              </div>
+              <div class="slds-media__body">
+                <div class="slds-grid slds-grid--align-spread slds-has-flexi-truncate">
+                  <p class="slds-tile__title slds-truncate"><a href="#">Jack Rogers</a></p>
+                  <span class="slds-badge">Primary</span>
+                </div>
+                <div class="slds-tile__detail slds-text-body--small">
+                  <p class="slds-truncate">VP, Facilities</p>
+                </div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Tiles - List" />
+            <ul class="slds-list--vertical">
+              <li class="slds-list__item">
+                <div class="slds-media slds-tile">
+                  <div class="slds-media__figure">
+                    <span aura:id="svg_content6">
+                      <![CDATA[
+                      <svg aria-hidden="true" class="slds-icon icon-doctype-zip">
+                        <use xlink:href="/resource/SLDS080/assets/icons/doctype-sprite/svg/symbols.svg#zip"></use>
+                      </svg>
+                      ]]>
+                    </span>
+                  </div>
+                  <div class="slds-media__body">
+                    <p class="slds-tile__title slds-truncate"><a href="#">LSDS_038.zip</a></p>
+                    <ul class="slds-tile__detail slds-list--horizontal slds-has-dividers slds-text-body--small">
+                      <li class="slds-truncate slds-list__item">May 9th, 2015</li>
+                      <li class="slds-truncate slds-list__item">3.6mb</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="slds-list__item">
+                <div class="slds-media slds-tile">
+                  <div class="slds-media__figure">
+                    <span aura:id="svg_content7">
+                      <![CDATA[
+                      <svg aria-hidden="true" class="slds-icon icon-doctype-zip">
+                        <use xlink:href="/resource/SLDS080/assets/icons/doctype-sprite/svg/symbols.svg#zip"></use>
+                      </svg>
+                      ]]>
+                    </span>
+                  </div>
+                  <div class="slds-media__body">
+                    <p class="slds-tile__title slds-truncate"><a href="#">LSDS_037.zip</a></p> has-dividers
+                    <ul class="slds-tile__detail slds-list--horizontal slds-has-dividers slds-text-body--small">
+                      <li class="slds-truncate slds-list__item">May 8th, 2015</li>
+                      <li class="slds-truncate slds-list__item">3.7mb</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="slds-list__item">
+                <div class="slds-media slds-tile">
+                  <div class="slds-media__figure">
+                    <span aura:id="svg_content8">
+                      <![CDATA[
+                      <svg aria-hidden="true" class="slds-icon icon-doctype-zip">
+                        <use xlink:href="/resource/SLDS080/assets/icons/doctype-sprite/svg/symbols.svg#zip"></use>
+                      </svg>
+                      ]]>
+                    </span>
+                  </div>
+                  <div class="slds-media__body">
+                    <p class="slds-tile__title slds-truncate"><a href="#">LSDS_036.zip</a></p>
+                    <ul class="slds-tile__detail slds-list--horizontal slds-has-dividers slds-text-body--small">
+                      <li class="slds-truncate slds-list__item">May 7th, 2015</li>
+                      <li class="slds-truncate slds-list__item">3.9mb</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Tiles - Board" />
+            <ul class="slds-list--vertical slds-has-cards">
+              <li class="slds-list__item">
+                <div class="slds-tile slds-tile--board">
+                  <p class="slds-tile__title slds-truncate"><a href="#">Cloudhub + Anypoint Connectors</a></p>
+                  <div class="slds-tile__detail">
+                    <p class="slds-text-heading--medium">$500,000</p>
+                    <p class="slds-truncate"><a href="#">Company One</a></p>
+                    <p class="slds-truncate">Closing 9/30/2015</p>
+                  </div>
+                </div>
+              </li>
+              <li class="slds-list__item">
+                <div class="slds-tile slds-tile--board">
+                  <p class="slds-tile__title slds-truncate"><a href="#">Cloudhub</a></p>
+                  <div class="slds-tile__detail">
+                    <p class="slds-text-heading--medium">$185,000</p>
+                    <p class="slds-truncate"><a href="#">Company Two</a></p>
+                    <p class="slds-truncate slds-has-alert">Closing 12/15/2015</p>
+                    <span class="slds-icon__container slds-tile--board__icon">
+                      <span aura:id="svg_content9">
+                        <![CDATA[
+                        <svg aria-hidden="true" class="slds-icon slds-icon-text-warning slds-icon--x-small">
+                          <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#warning"></use>
+                        </svg>
+                        ]]>
+                      </span>
+                      <span class="slds-assistive-text">Warning Icon</span>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="slds-list__item">
+                <div class="slds-tile slds-tile--board">
+                  <p class="slds-tile__title slds-truncate"><a href="#">600 Widgets</a></p>
+                  <div class="slds-tile__detail">
+                    <p class="slds-text-heading--medium">$35,000</p>
+                    <p class="slds-truncate"><a href="#">Company Three</a></p>
+                    <p class="slds-truncate">Closing 10/12/2015</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Tiles - Generic" />
+            <div class="slds-media slds-tile slds-hint-parent">
+              <div class="slds-media__figure">
+                <span aura:id="svg_content10">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-icon slds-icon-standard-contact">
+                    <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#contact"></use>
+                  </svg>
+                  ]]>
+                </span>
+              </div>
+              <div class="slds-media__body">
+                <div class="slds-grid slds-grid--align-spread slds-has-flexi-truncate">
+                  <p class="slds-tile__title slds-truncate"><a href="#">Jack Rogers</a></p>
+                  <button class="slds-button slds-button--icon-border-filled slds-button--icon-border-small slds-shrink-none">
+                    <span aura:id="svg_content11">
+                      <![CDATA[
+                      <svg aria-hidden="true" class="slds-button__icon slds-button__icon--hint slds-button__icon--small">
+                        <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                      </svg>
+                      ]]>
+                    </span>
+                    <span class="slds-assistive-text">Show More</span>
+                  </button>
+                </div>
+                <div class="slds-tile__detail">
+                  <dl class="dl--horizontal slds-text-body--small">
+                    <dt class="slds-dl--horizontal__label">
+                      <p class="slds-truncate">Title:</p>
+                    </dt>
+                    <dd class="slds-dl--horizontal__detail slds-tile__meta">
+                      <p class="slds-truncate">VP, Facilities</p>
+                    </dd>
+                    <dt class="slds-dl--horizontal__label">
+                      <p class="slds-truncate">Email:</p>
+                    </dt>
+                    <dd class="slds-dl--horizontal__detail slds-tile__meta">
+                      <p class="slds-truncate">jrogers@burlingtion.com</p>
+                    </dd>
+                    <dt class="slds-dl--horizontal__label">
+                      <p class="slds-truncate">Phone:</p>
+                    </dt>
+                    <dd class="slds-dl--horizontal__detail slds-tile__meta">
+                      <p class="slds-truncate">(415) 444-4444</p>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Tiles - Task" />
+            <div class="slds-media slds-tile">
+              <div class="slds-media__figure">
+                <label class="slds-checkbox" for="mark-complete">
+                  <input name="checkbox" type="checkbox" id="mark-complete" />
+                  <span class="slds-checkbox--faux"></span>
+                  <span class="slds-form-element__label slds-assistive-text">mark-complete</span>
+                </label>
+              </div>
+              <div class="slds-media__body">
+                <div class="slds-grid slds-grid--align-spread slds-has-flexi-truncate">
+                  <p class="slds-tile__title slds-truncate"><a href="#">The Trammel Crow Company</a></p>
+                  <span class="label">Today</span>
+                </div>
+                <div class="slds-tile__detail slds-text-body--small">
+                  <p class="slds-truncate">Assignee</p>
+                </div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Tiles - Author" />
+            <div class="slds-tile">
+              <p class="slds-tile__title slds-truncate"><a href="#">Company One beats Company Two to the 200-mile affordable electric car</a></p>
+              <div class="slds-tile__detail slds-text-body--small">
+                <p>by Steve Author</p>
+                <ul class="slds-list--horizontal slds-has-dividers slds-tile__meta">
+                  <li class="slds-list__item slds-list__item">Breaking News</li>
+                  <li class="slds-list__item slds-list__item">1 day ago</li>
+                </ul>
+              </div>
+            </div>
+            <div class="slds-media slds-tile">
+              <div class="slds-media__figure">
+                <img src="http://www.lightningdesignsystem.com/assets/images/company1.jpg" style="height:48px;" alt="figure" />
+              </div>
+              <div class="slds-media__body">
+                <p class="slds-tile__title slds-truncate"><a href="#">Company One beats Company Two to the 200-mile affordable electric car</a></p>
+                <div class="slds-tile__detail slds-text-body--small">
+                  <p>by Steve Author</p>
+                  <ul class="slds-list--horizontal slds-has-dividers slds-tile__meta">
+                    <li class="slds-list__item slds-list__item">Breaking News</li>
+                    <li class="slds-list__item slds-list__item">1 day ago</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
             <!-- Margin -->
             <div class="components-margin" />
           </div><!-- ./slds end -->

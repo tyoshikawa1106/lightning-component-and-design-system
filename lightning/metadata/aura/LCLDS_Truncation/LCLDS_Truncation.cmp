@@ -13,11 +13,13 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Truncation - Single Line" />
+            <dl class="slds-size--1-of-2">
+              <dt class="slds-text-heading--label">Field 4</dt>
+              <dd>
+                <p class="slds-truncate">Long text field with many lines and truncation will look like this. Even though the text might go on for ages and ages.</p>
+              </dd>
+            </dl>
             <!-- Margin -->
             <div class="components-margin" />
           </div><!-- ./slds end -->

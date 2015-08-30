@@ -1,0 +1,105 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+  <!-- require -->
+  <ltng:require scripts="/resource/LCLDS_JQuery/dist/jquery.min.js
+                        ,/resource/LCLDS_BootstrapSF1/dist/js/docs.js"
+                 styles="/resource/LCLDS_BootstrapSF1/dist/css/bootstrap.min.css
+                        ,/resource/LCLDS_BootstrapSF1/dist/css/docs.min.css
+                        ,/resource/SLDS080/assets/styles/salesforce-lightning-design-system.css
+                        ,/resource/LCLDS_CommonCss" />
+  <!-- components -->
+  <div class="lclds">
+    <c:LCLDS_Header />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="slds">
+            <c:LCLDS_SectionHeader title="Text - Base" />
+            <div class="slds-text-body--regular">The quick brown fox jumps over the lazy dog.</div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Text - Body Small" />
+            <div class="slds-text-body--small">The quick brown fox jumps over the lazy dog.</div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Text - Heading Large" />
+            <div class="slds-text-heading--large">The quick brown fox jumps over the lazy dog.</div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Text - Heading Medium" />
+            <div class="slds-text-heading--medium">The quick brown fox jumps over the lazy dog.</div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Text - Heading Small" />
+            <div class="slds-text-heading--small">The quick brown fox jumps over the lazy dog.</div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Text - Heading Label" />
+            <div class="slds-text-heading--label">The quick brown fox jumps over the lazy dog.</div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Text - Alignment" />
+            <div class="slds-text-align--left">The quick brown fox jumps over the lazy dog.</div>
+            <div class="slds-text-align--center">The quick brown fox jumps over the lazy dog.</div>
+            <div class="slds-text-align--right">The quick brown fox jumps over the lazy dog.</div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Text - Longform" />
+            <div class="slds-text-longform">
+              <p>The quick brown fox jumps over the lazy dog.</p>
+              <p>The quick brown fox jumps over the lazy dog.</p>
+              <h3 class="slds-text-heading--small">Something</h3>
+              <ul>
+                <li>The quick brown fox jumps over the lazy dog.</li>
+                <li>The quick brown fox jumps over the lazy dog.</li>
+              </ul>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Text - Section Title" />
+            <h3 class="slds-section-title section-group--is-open">
+              <a href="#">
+                <span aura:id="svg_content1">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+                  </svg>
+                  ]]>
+                </span> Section Title
+              </a>
+            </h3>
+            <hr/>
+            <h3 class="slds-section-title slds-section-group--is-closed">
+              <a href="#">
+                <span aura:id="svg_content2">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+                  </svg>
+                  ]]>
+                </span> Section Title
+              </a>
+            </h3>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Text - Faux Links" />
+            <span class="slds-type-focus">Span with faux link interactions</span>
+            <!-- Margin -->
+            <div class="components-margin" />
+          </div><!-- ./slds end -->
+        </div>
+        <div class="col-md-3">
+          <c:LCLDS_SideMenu />
+        </div>
+      </div>
+    </div>
+  </div>
+</aura:component>

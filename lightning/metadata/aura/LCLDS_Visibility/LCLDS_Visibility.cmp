@@ -13,11 +13,54 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Visibility - Hide Show" />
+            <div class="slds-hide">I am hidden</div>
+            <div class="slds-show">I am shown as a block</div>
+            <div class="slds-show--inline-block">I am shown as an inline-block</div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Visibility - Hidden Visible" />
+            <div class="slds-hidden">I am hidden</div>
+            <div class="slds-visible">I am visible</div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Visibility - Transition Hide Show" />
+            <div class="slds-transition-hide">I have zero opacity</div>
+            <div class="slds-transition-show">I have 100% opacity</div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Visibility - Collapsed Expanded" />
+            <div class="slds-collapsed">
+              <h3>I am collapsed</h3>
+              <p>I am a child inside a collapsed element</p>
+            </div>
+            <div class="slds-expanded">
+              <h3>I am expanded</h3>
+              <p>I am a child inside an expanded element</p>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Visibility - Assistive Text" />
+            <div class="slds-assistive-text">I am hidden from sight</div>
+            <div>I can be seen</div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Visibility - Responsive" />
+            <div class="slds-x-small-show">Show on 320px and up</div>
+            <div class="slds-x-small-show-only">Show only between 320px and 479px</div>
+            <div class="slds-max-x-small-hide">Hide on 319px and down</div>
+            <div class="slds-small-show">Show on 480px and up</div>
+            <div class="slds-small-show-only">Show only between 480px and 767px</div>
+            <div class="slds-max-small-hide">Hide on 479px and down</div>
+            <div class="slds-medium-show">Show on 768px and up</div>
+            <div class="slds-medium-show-only">Show only between 768px and 1023px</div>
+            <div class="slds-max-medium-hide">Hide on 1023px and down</div>
+            <div class="slds-large-show">Show on 1024px and up</div>
             <!-- Margin -->
             <div class="components-margin" />
           </div><!-- ./slds end -->

@@ -13,11 +13,65 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Themes - Box" />
+            <div class="demo--margin">
+              <div class="slds-box">
+                <p>This is a regular sized box.</p>
+              </div>
+              <div class="slds-box slds-box--small">
+                <p>This is a small box.</p>
+              </div>
+              <div class="slds-box slds-box--x-small">
+                <p>This is an extra small box.</p>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Themes - Color" />
+            <div class="demo--margin">
+              <div class="slds-box slds-theme--default">
+                <p>This is a
+                <strong>default</strong> theme and here is a <a href="#">link</a>.</p>
+              </div>
+              <div class="slds-box slds-theme--shade">
+                <p>This is a
+                  <strong>shade</strong> theme and here is a <a href="#">link</a>.</p>
+              </div>
+              <div class="slds-box slds-theme--inverse">
+                <p>This is an
+                  <strong>inverse</strong> theme and here is a <a href="#">link</a>.</p>
+              </div>
+              <div class="slds-box slds-theme--alt-inverse">
+                <p>This is an
+                  <strong>alt-inverse</strong> theme and here is a <a href="#">link</a>.</p>
+              </div>
+              <div class="slds-box slds-theme--success slds-theme--inverse-text">
+                <p>This is a
+                  <strong>success</strong> theme and here is a <a href="#">link</a>.</p>
+              </div>
+              <div class="slds-box slds-theme--warning slds-theme--inverse-text">
+                <p>This is a
+                  <strong>warning</strong> theme and here is a <a href="#">link</a>.</p>
+              </div>
+              <div class="slds-box slds-theme--error slds-theme--inverse-text">
+                <p>This is a
+                  <strong>error</strong> theme and here is a <a href="#">link</a>.</p>
+              </div>
+              <div class="slds-box slds-theme--offline slds-theme--inverse-text">
+                <p>This is an
+                  <strong>offline</strong> theme and here is a <a href="#">link</a>.</p>
+              </div>
+              <div class="slds-box slds-box slds-theme--shade slds-theme--alert-texture">
+                <p>This theme has the
+                  <strong>alert texture</strong> theme added to the shade them and has a <a href="#">link</a>.</p>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Themes - Page Header" />
+            <div class="slds-page-header">This is a page header theme.</div>
             <!-- Margin -->
             <div class="components-margin" />
           </div><!-- ./slds end -->
