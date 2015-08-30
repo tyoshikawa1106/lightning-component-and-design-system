@@ -13,11 +13,628 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Lookups - Base" />
+            <div style="height: 300px;">
+              <div class="slds-lookup" data-select="multi" data-scope="single" data-typeahead="true">
+                <div class="slds-form-element">
+                  <label class="slds-form-element__label" for="lookup">Accounts</label>
+                  <div class="slds-lookup__control slds-input-has-icon slds-input-has-icon--right">
+                    <span aura:id="svg_content1">
+                      <![CDATA[
+                      <svg aria-hidden="true" class="slds-input__icon">
+                        <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                      </svg>
+                      ]]>
+                    </span>
+                    <input id="lookup" class="slds-input--bare" type="text" aria-label="lookup" aria-haspopup="true" aria-autocomplete="list" role="combobox" />
+                  </div>
+                </div>
+                <div class="slds-lookup__menu" role="listbox">
+                  <ul class="slds-lookup__list" role="presentation">
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content2">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-text-default slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        &quot;ac&quot; in Accounts
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content3">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Paddy&#x27;s Pub
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content4">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Tyrell Corporation
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content5">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Paper St. Soap Company</a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content6">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Nakatomi Investments</a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content7">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Acme Landscaping</a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content8">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        ACME Construction</a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content9">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-text-default slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Add Account</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Lookups - Single Select" />
+            <div style="height: 300px;">
+              <div class="slds-lookup slds-has-selection" data-select="single" data-scope="single" data-typeahead="false">
+                <div class="slds-form-element">
+                  <label class="slds-form-element__label" for="lookup">Accounts</label>
+                  <div class="slds-lookup__control slds-input-has-icon slds-input-has-icon--right">
+                    <span aura:id="svg_content10">
+                      <![CDATA[
+                      <svg aria-hidden="true" class="slds-input__icon">
+                        <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                      </svg>
+                      ]]>
+                    </span>
+                    <span class="slds-pill slds-pill--bare">
+                      <a href="#" class="slds-pill__label">
+                        <span aura:id="svg_content11">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Pied Piper</a>
+                      <button class="slds-button slds-button--icon-bare">
+                        <span aura:id="svg_content12">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        <span class="slds-assistive-text">Remove</span>
+                      </button>
+                    </span>
+                    <input id="lookup" class="slds-input--bare slds-hide" type="text" aria-label="lookup" aria-haspopup="true" aria-autocomplete="list" role="combobox" />
+                  </div>
+                </div>
+                <div class="slds-lookup__menu" role="listbox">
+                  <ul class="slds-lookup__list" role="presentation">
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content13">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Paddy&#x27;s Pub
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content14">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Tyrell Corporation
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content15">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Paper St. Soap Company
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content16">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Nakatomi Investments
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content17">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Acme Landscaping
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content18">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        ACME Construction
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content19">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-text-default slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Add Account
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Lookups - Multi Select" />
+            <div style="height: 300px;">
+              <div class="slds-lookup slds-has-selection" data-select="multi" data-scope="single" data-typeahead="true">
+                <div class="slds-form-element">
+                  <label class="slds-form-element__label" for="lookup">Accounts</label>
+                  <div class="slds-lookup__control slds-input-has-icon slds-input-has-icon--right">
+                    <span aura:id="svg_content20">
+                      <![CDATA[
+                      <svg aria-hidden="true" class="slds-input__icon">
+                        <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                      </svg>
+                      ]]>
+                    </span>
+                    <span class="slds-pill">
+                      <a href="#" class="slds-pill__label">
+                        <span aura:id="svg_content21">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Pied Piper
+                      </a>
+                      <button class="slds-button slds-button--icon-bare">
+                        <span aura:id="svg_content22">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        <span class="slds-assistive-text">Remove</span>
+                      </button>
+                    </span>
+                    <span class="slds-pill">
+                      <a href="#" class="slds-pill__label">
+                        <span aura:id="svg_content23">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Weyland-Yutani Corporation
+                      </a>
+                      <button class="slds-button slds-button--icon-bare">
+                        <span aura:id="svg_content24">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        <span class="slds-assistive-text">Remove</span>
+                      </button>
+                    </span>
+                    <input id="lookup" class="slds-input--bare" type="text" aria-label="lookup" aria-haspopup="true" aria-autocomplete="list" role="combobox" />
+                  </div>
+                </div>
+                <div class="slds-lookup__menu" role="listbox">
+                  <ul class="slds-lookup__list" role="presentation">
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content25">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-text-default slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        &quot;ac&quot; in Accounts
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content26">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Paddy&#x27;s Pub
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content27">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Tyrell Corporation</a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content28">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Paper St. Soap Company
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content29">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Nakatomi Investments</a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content30">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Acme Landscaping
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content31">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        ACME Construction
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content32">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-text-default slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Add Account
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Lookups - Single Scope" />
+            <div style="height: 300px;">
+              <div class="slds-lookup" data-select="single" data-scope="single" data-typeahead="false">
+                <div class="slds-form-element">
+                  <label class="slds-form-element__label" for="lookup">Accounts</label>
+                  <div class="slds-lookup__control slds-input-has-icon slds-input-has-icon--right">
+                    <span aura:id="svg_content33">
+                      <![CDATA[
+                      <svg aria-hidden="true" class="slds-input__icon">
+                        <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                      </svg>
+                      ]]>
+                    </span>
+                    <input id="lookup" class="slds-input--bare" type="text" aria-label="lookup" aria-haspopup="true" aria-autocomplete="list" role="combobox" />
+                  </div>
+                </div>
+                <div class="slds-lookup__menu" role="listbox">
+                  <ul class="slds-lookup__list" role="presentation">
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content34">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Paddy&#x27;s Pub
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content35">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Tyrell Corporation
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">  
+                        <span aura:id="svg_content36">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Paper St. Soap Company
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content37">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Nakatomi Investments
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content38">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Weylan-Yutani Corporation
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content39">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-text-default slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Add Account
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Lookups - Multi Scope" />
+            <div style="height: 300px;">
+              <div class="slds-lookup" data-select="multi" data-scope="multi" data-typeahead="false">
+                <div class="slds-form-element">
+                  <label class="slds-form-element__label" for="lookup">Accounts</label>
+                  <div class="slds-lookup__control slds-input-has-icon slds-input-has-icon--right">
+                    <span aura:id="svg_content40">
+                      <![CDATA[
+                      <svg aria-hidden="true" class="slds-input__icon">
+                        <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                      </svg>
+                      ]]>
+                    </span>
+                    <input id="lookup" class="slds-input--bare" type="text" aria-label="lookup" aria-haspopup="true" aria-autocomplete="list" role="combobox" />
+                  </div>
+                </div>
+                <div class="slds-lookup__menu" role="listbox">
+                  <ul class="slds-lookup__list" role="presentation">
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content41">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-user slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#user"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Contacts
+                        <button class="slds-button slds-button--icon-bare slds-button-space-left">
+                          <span aura:id="svg_content42">
+                            <![CDATA[
+                            <svg aria-hidden="true" class="slds-button__icon">
+                              <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                            </svg>
+                            ]]>
+                          </span>
+                          <span class="slds-assistive-text">Filter</span>
+                        </button>
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content43">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-user slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#user"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Diana Rios
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content44">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-user slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#user"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Nicole Woods
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content45">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-user slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#user"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        James Freeman
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content46">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-user slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#user"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Gloria Pearson
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content47">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-standard-user slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#user"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Jordan Dean
+                      </a>
+                    </li>
+                    <li class="slds-lookup__item" role="presentation">
+                      <a href="#" role="option">
+                        <span aura:id="svg_content48">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-icon slds-icon-text-default slds-icon--small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        Add Account
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
             <!-- Margin -->
             <div class="components-margin" />
           </div><!-- ./slds end -->

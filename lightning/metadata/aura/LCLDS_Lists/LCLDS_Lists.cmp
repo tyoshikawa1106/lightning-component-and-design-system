@@ -13,11 +13,119 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Lists - Dotted" />
+            <ul>
+              <li>Basic un-ordered list</li>
+              <li>List Item</li>
+              <li>List Item</li>
+            </ul>
+            <ul class="slds-list--dotted">
+              <li>Dotted un-ordered list</li>
+              <li>List Item</li>
+              <li>List Item</li>
+            </ul>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Lists - Ordered" />
+            <ol>
+              <li>Basic ordered list</li>
+              <li>List Item</li>
+              <li>List Item</li>
+            </ol>
+            <ol class="slds-list--ordered">
+              <li>Numeric ordered list</li>
+              <li>List Item</li>
+              <li>List Item</li>
+            </ol>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Lists - Vertical" />
+            <ul class="slds-list--vertical slds-has-block-links">
+              <li class="slds-list__item"><a href="#">Vertical List with block level links</a></li>
+              <li class="slds-list__item"><a href="#">List Item</a></li>
+              <li class="slds-list__item"><a href="#">List Item</a></li>
+            </ul>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Lists - Has Divider" />
+            <ul class="slds-list--vertical">
+              <li class="slds-list__item">List Item</li>
+              <li class="slds-list__item">List Item</li>
+              <li class="slds-list__item slds-has-divider">List Item</li>
+            </ul>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Lists - Vertical With Dividers" />
+            <ul class="slds-list--vertical slds-has-dividers">
+              <li class="slds-list__item">List Item One</li>
+              <li class="slds-list__item">List Item One</li>
+              <li class="slds-list__item">List Item One</li>
+              <li class="slds-list__item">List Item One</li>
+            </ul>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Lists - Vertical With Cards" />
+            <ul class="slds-list--vertical slds-has-cards">
+              <li class="slds-list__item"><a href="#">List Item One</a></li>
+              <li class="slds-list__item"><a href="#">List Item Two</a></li>
+              <li class="slds-list__item"><a href="#">List Item Three</a></li>
+              <li class="slds-list__item"><a href="#">List Item Four</a></li>
+            </ul>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Lists - Lists - Horizontal" />
+            <ul class="slds-list--horizontal">
+              <li class="slds-list__item"><a href="#">Horizontal List</a></li>
+              <li class="slds-list__item"><a href="#">List Item</a></li>
+              <li class="slds-list__item"><a href="#">List Item</a></li>
+            </ul>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Lists - Lists - Horizontal With Dividers" />
+            <ul class="slds-list--horizontal slds-has-dividers">
+              <li class="slds-list__item">List Item One</li>
+              <li class="slds-list__item">List Item One</li>
+              <li class="slds-list__item">List Item One</li>
+              <li class="slds-list__item">List Item One</li>
+            </ul>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Lists - Lists - Description Inline" />
+            <dl>
+              <dt>Basic Description List Label</dt>
+              <dd>First description</dd>
+              <dd>Second description</dd>
+            </dl>
+            <dl class="slds-dl--inline">
+              <dt class="slds-dl--inline__label">Inline Description List Label:</dt>
+              <dd class="slds-dl--inline__detail">First description</dd>
+              <dt class="slds-dl--inline__label">Second Label:</dt>
+              <dd class="slds-dl--inline__detail">Description for second label</dd>
+            </dl>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Lists - Lists - Description Horizontal" />
+            <dl>
+              <dt>Basic Description List Label</dt>
+              <dd>First description</dd>
+              <dd>Second description</dd>
+            </dl>
+            <dl class="dl--horizontal">
+              <dt class="slds-dl--horizontal__label">Horizontal Description List Label</dt>
+              <dd class="slds-dl--horizontal__detail">First description</dd>
+              <dd class="slds-dl--horizontal__detail">Second description for first label</dd>
+              <dt class="slds-dl--horizontal__label">Second Label</dt>
+              <dd class="slds-dl--horizontal__detail">First description for second label</dd>
+            </dl>
             <!-- Margin -->
             <div class="components-margin" />
           </div><!-- ./slds end -->

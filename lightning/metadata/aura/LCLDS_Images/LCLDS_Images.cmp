@@ -13,11 +13,31 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Images" />
+            <span class="slds-avatar slds-avatar--x-small">
+              <img src="http://www.lightningdesignsystem.com/assets/images/company1.jpg" alt="company name" />
+            </span>
+            <span class="slds-avatar slds-avatar--small">
+              <img src="http://www.lightningdesignsystem.com/assets/images/company1.jpg" alt="company name" />
+            </span>
+            <span class="slds-avatar slds-avatar--medium">
+              <img src="http://www.lightningdesignsystem.com/assets/images/company1.jpg" alt="company name" />
+            </span>
+            <span class="slds-avatar slds-avatar--large">
+              <img src="http://www.lightningdesignsystem.com/assets/images/company1.jpg" alt="company name" />
+            </span>
+            <span class="slds-avatar slds-avatar--circle slds-avatar--x-small">
+              <img src="/resource/SLDS080/assets/images/avatar2.jpg" alt="person name" />
+            </span>
+            <span class="slds-avatar slds-avatar--circle slds-avatar--small">
+              <img src="/resource/SLDS080/assets/images/avatar2.jpg" alt="person name" />
+            </span>
+            <span class="slds-avatar slds-avatar--circle slds-avatar--medium">
+              <img src="/resource/SLDS080/assets/images/avatar2.jpg" alt="person name" />
+            </span>
+            <span class="slds-avatar slds-avatar--circle slds-avatar--large">
+              <img src="/resource/SLDS080/assets/images/avatar2.jpg" alt="person name" />
+            </span>
             <!-- Margin -->
             <div class="components-margin" />
           </div><!-- ./slds end -->
