@@ -37,6 +37,15 @@
               </span>
               Download
             </button>
+            <button class="slds-button slds-button--neutral">Download
+              <span aura:id="svg_content2">
+                <![CDATA[
+                <svg aria-hidden="true" class="slds-button__icon slds-button__icon--left">
+                  <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#download"></use>
+                </svg>
+                ]]>
+              </span>
+            </button>
             <!-- Margin -->
             <div class="components-margin" />
 
@@ -59,16 +68,6 @@
 
             <c:LCLDS_SectionHeader title="Buttons - Icon" />
             <button class="slds-button slds-button--icon-bare">
-              <span aura:id="svg_content2">
-                <![CDATA[
-                <svg aria-hidden="true" class="slds-button__icon">
-                  <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#settings"></use>
-                </svg>
-                ]]>
-              </span>
-              <span class="slds-assistive-text">Settings</span>
-            </button>
-            <button class="slds-button slds-button--icon-container">
               <span aura:id="svg_content3">
                 <![CDATA[
                 <svg aria-hidden="true" class="slds-button__icon">
@@ -78,7 +77,7 @@
               </span>
               <span class="slds-assistive-text">Settings</span>
             </button>
-            <button class="slds-button slds-button--icon-container" disabled="">
+            <button class="slds-button slds-button--icon-container">
               <span aura:id="svg_content4">
                 <![CDATA[
                 <svg aria-hidden="true" class="slds-button__icon">
@@ -88,7 +87,7 @@
               </span>
               <span class="slds-assistive-text">Settings</span>
             </button>
-            <button class="slds-button slds-button--icon-border">
+            <button class="slds-button slds-button--icon-container" disabled="">
               <span aura:id="svg_content5">
                 <![CDATA[
                 <svg aria-hidden="true" class="slds-button__icon">
@@ -98,7 +97,7 @@
               </span>
               <span class="slds-assistive-text">Settings</span>
             </button>
-            <button class="slds-button slds-button--icon-border" disabled="">
+            <button class="slds-button slds-button--icon-border">
               <span aura:id="svg_content6">
                 <![CDATA[
                 <svg aria-hidden="true" class="slds-button__icon">
@@ -108,7 +107,7 @@
               </span>
               <span class="slds-assistive-text">Settings</span>
             </button>
-            <button class="slds-button slds-button--icon-border-filled">
+            <button class="slds-button slds-button--icon-border" disabled="">
               <span aura:id="svg_content7">
                 <![CDATA[
                 <svg aria-hidden="true" class="slds-button__icon">
@@ -118,7 +117,7 @@
               </span>
               <span class="slds-assistive-text">Settings</span>
             </button>
-            <button class="slds-button slds-button--icon-border-filled" disabled="">
+            <button class="slds-button slds-button--icon-border-filled">
               <span aura:id="svg_content8">
                 <![CDATA[
                 <svg aria-hidden="true" class="slds-button__icon">
@@ -128,8 +127,18 @@
               </span>
               <span class="slds-assistive-text">Settings</span>
             </button>
-            <button class="slds-button slds-button--icon-border-filled slds-button--icon-small">
+            <button class="slds-button slds-button--icon-border-filled" disabled="">
               <span aura:id="svg_content9">
+                <![CDATA[
+                <svg aria-hidden="true" class="slds-button__icon">
+                  <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#settings"></use>
+                </svg>
+                ]]>
+              </span>
+              <span class="slds-assistive-text">Settings</span>
+            </button>
+            <button class="slds-button slds-button--icon-border-filled slds-button--icon-small">
+              <span aura:id="svg_content10">
                 <![CDATA[
                 <svg aria-hidden="true" class="slds-button__icon">
                   <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#settings"></use>
@@ -143,7 +152,7 @@
 
             <c:LCLDS_SectionHeader title="Buttons - Icon Sizing" />
             <button class="slds-button slds-button--icon-bare">
-              <span aura:id="svg_content10">
+              <span aura:id="svg_content11">
                 <![CDATA[
                 <svg aria-hidden="true" class="slds-button__icon slds-button__icon--x-small">
                   <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
@@ -153,7 +162,7 @@
               <span class="slds-assistive-text">Show More</span>
             </button>
             <button class="slds-button slds-button--icon-bare">
-              <span aura:id="svg_content11">
+              <span aura:id="svg_content12">
                 <![CDATA[
                 <svg aria-hidden="true" class="slds-button__icon slds-button__icon--small">
                   <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
@@ -163,7 +172,7 @@
               <span class="slds-assistive-text">Show More</span>
             </button>
             <button class="slds-button slds-button--icon-bare">
-              <span aura:id="svg_content12">
+              <span aura:id="svg_content13">
                 <![CDATA[
                 <svg aria-hidden="true" class="slds-button__icon">
                   <use xlink:href="/resource/SLDS080/assets/icons/action-sprite/svg/symbols.svg#close"></use>
@@ -173,7 +182,7 @@
               <span class="slds-assistive-text">close</span>
             </button>
             <button class="slds-button slds-button--icon-bare">
-              <span aura:id="svg_content13">
+              <span aura:id="svg_content14">
                 <![CDATA[
                 <svg aria-hidden="true" class="slds-button__icon slds-button__icon--large">
                   <use xlink:href="/resource/SLDS080/assets/icons/action-sprite/svg/symbols.svg#close"></use>
@@ -187,7 +196,7 @@
 
             <c:LCLDS_SectionHeader title="Buttons - Icon More" />
             <button class="slds-button slds-button--icon-more" aria-haspopup="true">
-              <span aura:id="svg_content14">
+              <span aura:id="svg_content15">
                 <![CDATA[
                 <svg aria-hidden="true" class="slds-button__icon">
                   <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#settings"></use>
@@ -195,7 +204,7 @@
                 ]]>
               </span>
               <span class="slds-assistive-text">Settings</span>
-              <span aura:id="svg_content15">
+              <span aura:id="svg_content16">
                 <![CDATA[
                 <svg aria-hidden="true" class="slds-button__icon slds-button__icon--x-small">
                   <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
@@ -204,7 +213,7 @@
               </span>
             </button>
             <button class="slds-button slds-button--neutral slds-button--icon-more" aria-haspopup="true">
-              <span aura:id="svg_content16">
+              <span aura:id="svg_content17">
                 <![CDATA[
                 <svg aria-hidden="true" class="slds-button__icon">
                   <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#settings"></use>
@@ -212,7 +221,7 @@
                 ]]>
               </span>
               <span class="slds-assistive-text">Settings</span>
-              <span aura:id="svg_content17">
+              <span aura:id="svg_content18">
                 <![CDATA[
                 <svg aria-hidden="true" class="slds-button__icon slds-button__icon--x-small">
                   <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
@@ -225,7 +234,7 @@
 
             <c:LCLDS_SectionHeader title="Buttons - Icon Stateful" />
             <button class="slds-button slds-button--icon-border slds-not-selected">
-              <span aura:id="svg_content18">
+              <span aura:id="svg_content19">
                 <![CDATA[
                 <svg aria-hidden="true" class="slds-button__icon">
                   <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#like"></use>
@@ -240,7 +249,7 @@
             <c:LCLDS_SectionHeader title="Buttons - Icon Inverse" />
             <div class="demo--inverse">
               <button class="slds-button">
-                <span aura:id="svg_content19">
+                <span aura:id="svg_content20">
                   <![CDATA[
                   <svg aria-hidden="true" class="slds-button__icon slds-button__icon--inverse">
                     <use xlink:href="/resource/SLDS080/assets/icons/action-sprite/svg/symbols.svg#close"></use>
@@ -250,7 +259,7 @@
                 <span class="slds-assistive-text">close</span>
               </button>
               <button class="slds-button" disabled="">
-                <span aura:id="svg_content20">
+                <span aura:id="svg_content21">
                   <![CDATA[
                   <svg aria-hidden="true" class="slds-button__icon slds-button__icon--inverse">
                     <use xlink:href="/resource/SLDS080/assets/icons/action-sprite/svg/symbols.svg#close"></use>

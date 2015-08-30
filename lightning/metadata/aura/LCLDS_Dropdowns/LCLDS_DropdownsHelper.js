@@ -62,50 +62,5 @@
         var value12 = svg12.getElement().innerText;
         value12 = value12.replace("", "");
         svg12.getElement().innerHTML = value12;
-
-        var svg13  = component.find("svg_content13");
-        var value13 = svg13.getElement().innerText;
-        value13 = value13.replace("", "");
-        svg13.getElement().innerHTML = value13;
-
-        var svg14  = component.find("svg_content14");
-        var value14 = svg14.getElement().innerText;
-        value14 = value14.replace("", "");
-        svg14.getElement().innerHTML = value14;
-
-        var svg15  = component.find("svg_content15");
-        var value15 = svg15.getElement().innerText;
-        value15 = value15.replace("", "");
-        svg15.getElement().innerHTML = value15;
-
-        var svg16  = component.find("svg_content16");
-        var value16 = svg16.getElement().innerText;
-        value16 = value16.replace("", "");
-        svg16.getElement().innerHTML = value16;
-
-        var svg17  = component.find("svg_content17");
-        var value17 = svg17.getElement().innerText;
-        value17 = value17.replace("", "");
-        svg17.getElement().innerHTML = value17;
-
-        var svg18  = component.find("svg_content18");
-        var value18 = svg18.getElement().innerText;
-        value18 = value18.replace("", "");
-        svg18.getElement().innerHTML = value18;
-
-        var svg19  = component.find("svg_content19");
-        var value19 = svg19.getElement().innerText;
-        value19 = value19.replace("", "");
-        svg19.getElement().innerHTML = value19;
-
-        var svg20  = component.find("svg_content20");
-        var value20 = svg20.getElement().innerText;
-        value20 = value20.replace("", "");
-        svg20.getElement().innerHTML = value20;
-
-        var svg21  = component.find("svg_content21");
-        var value21 = svg21.getElement().innerText;
-        value21 = value21.replace("", "");
-        svg21.getElement().innerHTML = value21;
     }
 })

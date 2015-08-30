@@ -13,13 +13,237 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Dropdowns - Base" />
+            <div class="slds-dropdown-trigger" aria-haspopup="true">
+              <button class="slds-button slds-button--icon-container">
+                <span aura:id="svg_content1">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#settings"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">Settings</span>
+              </button>
+              <div class="slds-dropdown slds-dropdown--left slds-dropdown--menu">
+                <ul class="slds-dropdown__list" role="menu">
+                  <li id="menu-0-0" href="#" class="slds-dropdown__item" role="menuitem option" tabindex="0"><a href="#" tabindex="-1" class="slds-truncate">Menu Item One</a></li>
+                  <li id="menu-1-1" href="#" class="slds-dropdown__item" role="menuitem option" tabindex="-1"><a href="#" tabindex="-1" class="slds-truncate">Menu Item Two</a></li>
+                  <li id="menu-2-2" href="#" class="slds-dropdown__item" role="menuitem option" tabindex="-1"><a href="#" tabindex="-1" class="slds-truncate">Menu Item Three</a></li>
+                  <li id="menu-3-3" class="slds-dropdown__item slds-has-divider" href="#" role="menuitem option" tabindex="-1"><a href="#" tabindex="-1" class="slds-truncate">Menu Item Four</a></li>
+                </ul>
+              </div>
+            </div>
             <!-- Margin -->
             <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Dropdowns - Menu" />
+            <div class="slds-dropdown-trigger" aria-haspopup="true">
+              <button class="slds-button slds-button--icon-container">
+                <span aura:id="svg_content2">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#settings"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">Settings</span>
+              </button>
+              <div class="slds-dropdown slds-dropdown--left slds-dropdown--nubbin-top slds-dropdown--menu">
+                <div class="slds-dropdown__header">
+                  <span class="slds-text-heading--label">List View Controls</span>
+                </div>
+                <ul class="slds-dropdown__list" role="menu">
+                  <li id="menu-4-0" disabled="" href="#rename" class="slds-dropdown__item" role="menuitem option" tabindex="0"><a href="#rename" tabindex="-1" aria-disabled="true" class="slds-truncate">Rename...</a></li>
+                  <li id="menu-5-1" disabled="" href="#share" class="slds-dropdown__item" role="menuitem option" tabindex="-1"><a href="#share" tabindex="-1" aria-disabled="true" class="slds-truncate">Share...</a></li>
+                  <li id="menu-6-2" disabled="" href="#delete" class="slds-dropdown__item" role="menuitem option" tabindex="-1"><a href="#delete" tabindex="-1" aria-disabled="true" class="slds-truncate">Delete</a></li>
+                  <li id="menu-7-3" disabled="" href="#save" class="slds-dropdown__item" role="menuitem option" tabindex="-1"><a href="#save" tabindex="-1" aria-disabled="true" class="slds-truncate">Save</a></li>
+                  <li id="menu-8-4" href="#save_as" class="slds-dropdown__item" role="menuitem option" tabindex="-1"><a href="#save_as" tabindex="-1" class="slds-truncate">Save As...</a></li>
+                  <li id="menu-9-5" href="#discard" class="slds-dropdown__item" role="menuitem option" tabindex="-1"><a href="#discard" tabindex="-1" class="slds-truncate">Discard Changes to List</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Dropdowns - Menu With Icons" />
+            <div class="slds-dropdown-trigger" aria-haspopup="true">
+              <button class="slds-button slds-button--icon-more" aria-haspopup="true">
+                <span aura:id="svg_content3">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#table"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">Settings</span>
+                <span aura:id="svg_content4">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon slds-button__icon--x-small">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                  </svg>
+                  ]]>
+                </span>
+              </button>
+              <div class="slds-dropdown slds-dropdown--left slds-dropdown--small slds-dropdown--menu">
+                <div class="slds-dropdown__header">
+                  <span class="slds-text-heading--label">Display As</span>
+                </div>
+                <ul class="slds-dropdown__list" role="menu">
+                  <li id="menu-10-0" class="slds-dropdown__item slds-is-selected slds-has-icon--left slds-is-selected" href="#" aria-selected="true" role="menuitem option" tabindex="0">
+                    <a href="#" tabindex="-1" class="slds-truncate">
+                      <span aura:id="svg_content5">
+                        <![CDATA[
+                        <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon--left">
+                          <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#task2"></use>
+                        </svg>
+                        ]]>
+                      </span>
+                      Table
+                      <span aura:id="svg_content6">
+                        <![CDATA[
+                        <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon--right">
+                          <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#table"></use>
+                        </svg>
+                        ]]>
+                      </span>
+                    </a>
+                  </li>
+                  <li id="menu-11-1" href="#" class="slds-dropdown__item slds-has-icon--left" role="menuitem option" tabindex="-1">
+                    <a href="#" tabindex="-1" class="slds-truncate">
+                      Cards
+                      <span aura:id="svg_content7">
+                        <![CDATA[
+                        <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon--right">
+                          <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#kanban"></use>
+                        </svg>
+                        ]]>
+                      </span>
+                    </a>
+                  </li>
+                  <li id="menu-12-2" href="#" class="slds-dropdown__item slds-has-icon--left" role="menuitem option" tabindex="-1">
+                    <a href="#" tabindex="-1" class="slds-truncate">
+                      Compact List
+                      <span aura:id="svg_content8">
+                        <![CDATA[
+                        <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon--right">
+                          <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#side_list"></use>
+                        </svg>
+                        ]]>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Dropdowns - Action Overflow" />
+            <div class="slds-dropdown-trigger" aria-haspopup="true">
+              <button class="slds-button slds-button--icon-border-filled">
+                <span aura:id="svg_content9">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">Show More</span>
+              </button>
+              <div class="slds-dropdown slds-dropdown--left slds-dropdown--actions slds-dropdown--menu">
+                <ul class="slds-dropdown__list" role="menu">
+                  <li id="menu-13-0" href="#" class="slds-dropdown__item" role="menuitem option" tabindex="0">
+                    <a href="#" tabindex="-1" class="slds-truncate">Action One</a>
+                  </li>
+                  <li id="menu-14-1" href="#" class="slds-dropdown__item" role="menuitem option" tabindex="-1">
+                    <a href="#" tabindex="-1" class="slds-truncate">Action Two</a>
+                  </li>
+                  <li id="menu-15-2" href="#" class="slds-dropdown__item" role="menuitem option" tabindex="-1">
+                    <a href="#" tabindex="-1" class="slds-truncate">Action Three</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Dropdowns - Positioning" />
+            <div class="slds-dropdown-trigger" aria-haspopup="true">
+              <button class="slds-button slds-button--icon-container">
+                <span aura:id="svg_content10">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#settings"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">Settings</span>
+              </button>
+              <div class="slds-dropdown slds-dropdown--left slds-dropdown--nubbin-top slds-dropdown--menu">
+                <ul class="slds-dropdown__list" role="menu">
+                  <li id="menu-21-0" href="#" class="slds-dropdown__item" role="menuitem option" tabindex="0">
+                    <a href="#" tabindex="-1" class="slds-truncate">Menu Item One</a>
+                  </li>
+                  <li id="menu-22-1" href="#" class="slds-dropdown__item" role="menuitem option" tabindex="-1">
+                    <a href="#" tabindex="-1" class="slds-truncate">Menu Item Two</a>
+                  </li>
+                  <li id="menu-23-2" href="#" class="slds-dropdown__item" role="menuitem option" tabindex="-1">
+                    <a href="#" tabindex="-1" class="slds-truncate">Menu Item Three</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="slds-dropdown-trigger" aria-haspopup="true">
+              <button class="slds-button slds-button--icon-container">
+                <span aura:id="svg_content11">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#settings"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">Settings</span>
+              </button>
+              <div class="slds-dropdown slds-dropdown--nubbin-top slds-dropdown--menu">
+                <ul class="slds-dropdown__list" role="menu">
+                  <li id="menu-24-0" href="#" class="slds-dropdown__item" role="menuitem option" tabindex="0">
+                    <a href="#" tabindex="-1" class="slds-truncate">Menu Item One</a>
+                  </li>
+                  <li id="menu-25-1" href="#" class="slds-dropdown__item" role="menuitem option" tabindex="-1">
+                    <a href="#" tabindex="-1" class="slds-truncate">Menu Item Two</a>
+                  </li>
+                  <li id="menu-26-2" href="#" class="slds-dropdown__item" role="menuitem option" tabindex="-1">
+                    <a href="#" tabindex="-1" class="slds-truncate">Menu Item Three</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="slds-dropdown-trigger" aria-haspopup="true">
+              <button class="slds-button slds-button--icon-container">
+                <span aura:id="svg_content12">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#settings"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">Settings</span>
+              </button>
+              <div class="slds-dropdown slds-dropdown--right slds-dropdown--nubbin-top slds-dropdown--menu">
+                <ul class="slds-dropdown__list" role="menu">
+                  <li id="menu-27-0" href="#" class="slds-dropdown__item" role="menuitem option" tabindex="0">
+                    <a href="#" tabindex="-1" class="slds-truncate">Menu Item One</a>
+                  </li>
+                  <li id="menu-28-1" href="#" class="slds-dropdown__item" role="menuitem option" tabindex="-1">
+                    <a href="#" tabindex="-1" class="slds-truncate">Menu Item Two</a>
+                  </li>
+                  <li id="menu-29-2" href="#" class="slds-dropdown__item" role="menuitem option" tabindex="-1">
+                    <a href="#" tabindex="-1" class="slds-truncate">Menu Item Three</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div><!-- ./slds end -->
         </div>
         <div class="col-md-3">
