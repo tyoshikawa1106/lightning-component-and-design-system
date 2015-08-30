@@ -13,11 +13,51 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Media Objects - Base" />
+            <div class="slds-media">
+              <div class="slds-media__figure">
+                <img src="/resource/SLDS080/assets/images/avatar3.jpg" style="height:100px;" alt="Placeholder" />
+              </div>
+              <div class="slds-media__body">
+                <p>Sit nulla est ex deserunt exercitation anim occaecat. Nostrud ullamco deserunt aute id consequat veniam incididunt duis in sint irure nisi. Mollit officia cillum Lorem ullamco minim nostrud elit officia tempor esse quis.</p>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Media Objects - Center" />
+            <div class="slds-media slds-media--center">
+              <div class="slds-media__figure">
+                <img src="/resource/SLDS080/assets/images/avatar2.jpg" style="height:100px;" alt="Placeholder" />
+              </div>
+              <div class="slds-media__body">
+                <p>Sit nulla est ex deserunt exercitation anim occaecat. Nostrud ullamco deserunt aute id consequat veniam incididunt duis in sint irure nisi. Mollit officia cillum Lorem ullamco minim nostrud elit officia tempor esse quis.</p>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Media Objects - Center" />
+            <div class="slds-media slds-media--center">
+              <div class="slds-media__figure">
+                <img src="/resource/SLDS080/assets/images/avatar2.jpg" style="height:100px;" alt="Placeholder" />
+              </div>
+              <div class="slds-media__body">
+                <p>Sit nulla est ex deserunt exercitation anim occaecat. Nostrud ullamco deserunt aute id consequat veniam incididunt duis in sint irure nisi. Mollit officia cillum Lorem ullamco minim nostrud elit officia tempor esse quis.</p>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Media Objects - Reverse" />
+            <div class="slds-media slds-media--reverse">
+              <div class="slds-media__figure">
+                <img src="/resource/SLDS080/assets/images/avatar2.jpg" style="height:100px;" alt="Placeholder" />
+              </div>
+              <div class="slds-media__body">
+                <p>Sit nulla est ex deserunt exercitation anim occaecat. Nostrud ullamco deserunt aute id consequat veniam incididunt duis in sint irure nisi. Mollit officia cillum Lorem ullamco minim nostrud elit officia tempor esse quis.</p>
+              </div>
+            </div>
             <!-- Margin -->
             <div class="components-margin" />
           </div><!-- ./slds end -->

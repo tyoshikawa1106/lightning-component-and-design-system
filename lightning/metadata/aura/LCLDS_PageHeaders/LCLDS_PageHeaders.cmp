@@ -13,11 +13,420 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Page Headers - Record Home" />
+            <div class="slds-page-header">
+              <div class="slds-grid">
+                <div class="slds-col slds-has-flexi-truncate">
+                  <div class="slds-media">
+                    <div class="slds-media__figure">
+                      <span aura:id="svg_content1">
+                        <![CDATA[
+                        <svg aria-hidden="true" class="slds-icon slds-icon--large slds-icon-standard-user">
+                          <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#user"></use>
+                        </svg>
+                        ]]>
+                      </span>
+                    </div>
+                    <div class="slds-media__body">
+                      <p class="slds-text-heading--label">Record Type</p>
+                      <div class="slds-grid">
+                        <h1 class="slds-text-heading--medium slds-m-right--small slds-truncate slds-align-middle" title="Record Title">Record Title</h1>
+                        <div class="slds-col slds-shrink-none">
+                          <button class="slds-button slds-button--neutral slds-not-selected" aria-live="assertive">
+                            <span class="slds-text-not-selected">
+                              <span aura:id="svg_content2">
+                                <![CDATA[
+                                <svg aria-hidden="true" class="slds-button__icon--stateful slds-button__icon--left">
+                                  <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
+                                </svg>
+                                ]]>
+                              </span>
+                              Follow
+                            </span>
+                            <span class="slds-text-selected">
+                              <span aura:id="svg_content3">
+                                <![CDATA[
+                                <svg aria-hidden="true" class="slds-button__icon--stateful slds-button__icon--left">
+                                  <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#check"></use>
+                                </svg>
+                                ]]>
+                              </span>
+                              Following
+                            </span>
+                            <span class="slds-text-selected-focus">
+                              <span aura:id="svg_content4">
+                                <![CDATA[
+                                <svg aria-hidden="true" class="slds-button__icon--stateful slds-button__icon--left">
+                                  <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+                                </svg>
+                                ]]>
+                              </span>
+                              Unfollow
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slds-col slds-no-flex slds-align-bottom">
+                  <div class="slds-button-group" role="group">
+                    <button class="slds-button slds-button--neutral">Edit</button>
+                    <button class="slds-button slds-button--neutral">Delete</button>
+                    <button class="slds-button slds-button--neutral">Clone</button>
+                    <div class="slds-button--last">
+                      <button class="slds-button slds-button--icon-border-filled">
+                        <span aura:id="svg_content5">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        <span class="slds-assistive-text">More</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slds-grid slds-page-header__detail-row">
+                <div class="slds-col--padded slds-size--1-of-4">
+                  <dl>
+                    <dt>
+                      <p class="slds-truncate" title="Field 1">Field 1</p>
+                    </dt>
+                    <dd>
+                      <p class="slds-text-body--regular slds-truncate" title="Description that demonstrates truncation with a long text field">
+                        Description that demonstrates truncation with a long text field
+                      </p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="slds-col--padded slds-size--1-of-4">
+                  <dl>
+                    <dt>
+                      <p class="slds-text-heading--label slds-truncate" title="Field2 (3)">Field 2 (3)
+                        <button class="slds-button slds-button--icon-bare">
+                          <span aura:id="svg_content6">
+                            <![CDATA[
+                            <svg aria-hidden="true" class="slds-button__icon slds-button__icon--small">
+                              <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                            </svg>
+                            ]]>
+                          </span>
+                          <span class="slds-assistive-text">More Actions</span>
+                        </button>
+                      </p>
+                    </dt>
+                    <dd>
+                      <p class="slds-text-body--regular">Multiple Values</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="slds-col--padded slds-size--1-of-4">
+                  <dl>
+                    <dt>
+                      <p class="slds-text-heading--label slds-truncate" title="Field 3">Field 3</p>
+                    </dt>
+                    <dd><a href="#">Hyperlink</a></dd>
+                  </dl>
+                </div>
+                <div class="slds-col--padded slds-size--1-of-4">
+                  <dl>
+                    <dt>
+                      <p class="slds-text-heading--label slds-truncate" title="Field 4">Field 4</p>
+                    </dt>
+                    <dd>
+                      <p>
+                        <span>Description (2-line truncation—must use JS to t...</span>
+                      </p>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Page Headers - Object Home" />
+            <div class="slds-page-header">
+              <div class="slds-grid">
+                <div class="slds-col slds-has-flexi-truncate">
+                  <p class="slds-text-heading--label">Leads</p>
+                  <div class="slds-grid">
+                    <div class="slds-grid slds-type-focus slds-no-space">
+                      <h1 class="slds-text-heading--medium slds-truncate" title="My Leads (truncates)">My Leads (truncates)</h1>
+                      <button class="slds-button slds-button--icon-bare slds-shrink-none slds-align-middle slds-m-left--x-small">
+                        <span aura:id="svg_content7">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        <span class="slds-assistive-text">View More</span>
+                      </button>
+                    </div>
+                    <button class="slds-button slds-button--icon-more slds-shrink-none slds-m-left--large" aria-haspopup="true">
+                      <span aura:id="svg_content8">
+                        <![CDATA[
+                        <svg aria-hidden="true" class="slds-button__icon">
+                          <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#settings"></use>
+                        </svg>
+                        ]]>
+                      </span>
+                      <span class="slds-assistive-text">Settings</span>
+                      <span aura:id="svg_content9">
+                        <![CDATA[
+                        <svg aria-hidden="true" class="slds-button__icon slds-button__icon--x-small">
+                          <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                        </svg>
+                        ]]>
+                      </span>
+                    </button>
+                    <button class="slds-button slds-button--brand slds-button-space-left slds-m-right--medium slds-shrink-none slds-align-middle slds-hide" aria-hidden="true">Save</button>
+                  </div>
+                </div>
+                <div class="slds-col slds-no-flex slds-align-bottom">
+                  <div class="slds-grid">
+                    <div class="slds-button-space-left">
+                      <button class="slds-button slds-button--icon-more" aria-haspopup="true">
+                        <span aura:id="svg_content10">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#table"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        <span class="slds-assistive-text">Table</span>
+                        <span aura:id="svg_content11">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon slds-button__icon--x-small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                      </button>
+                    </div>
+                    <div class="slds-button-group slds-button-space-left" role="group">
+                      <button class="slds-button slds-button--icon-border">
+                        <span aura:id="svg_content12">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#chart"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        <span class="slds-assistive-text">Chart</span>
+                      </button>
+                      <button class="slds-button slds-button--icon-border">
+                        <span aura:id="svg_content13">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#filterList"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        <span class="slds-assistive-text">Filter List</span>
+                      </button>
+                      <button class="slds-button slds-button--icon-more">
+                        <span aura:id="svg_content14">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#sort"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        <span class="slds-assistive-text">Sort</span>
+                        <span aura:id="svg_content15">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon slds-button__icon--x-small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        <span class="slds-assistive-text">More</span>
+                      </button>
+                    </div>
+                    <div class="slds-button-group" role="group">
+                      <button class="slds-button slds-button--neutral">New Lead</button>
+                      <div class="slds-button--last">
+                        <button class="slds-button slds-button--icon-border-filled">
+                          <span aura:id="svg_content16">
+                            <![CDATA[
+                            <svg aria-hidden="true" class="slds-button__icon">
+                              <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                            </svg>
+                            ]]>
+                          </span>
+                          <span class="slds-assistive-text">More Actions</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="slds-text-body--small slds-m-top--x-small">10 items • Sorted by Name</p>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Page Headers - Related List" />
+            <div class="slds-page-header">
+              <nav class="slds-m-bottom--xx-small" role="navigation">
+                <p id="bread-crumb-label" class="slds-assistive-text">You are here:</p>
+                <ol class="slds-breadcrumb slds-list--horizontal" aria-labelledby="bread-crumb-label">
+                  <li class="slds-list__item slds-text-heading--label"><a href="#">Accounts</a></li>
+                  <li class="slds-list__item slds-text-heading--label"><a href="#">Company One</a></li>
+                </ol>
+              </nav>
+              <div class="slds-grid">
+                <div class="slds-col slds-has-flexi-truncate">
+                  <h1 class="slds-text-heading--medium slds-truncate" title="Contacts (will truncate)">Contacts (will truncate)</h1>
+                </div>
+                <div class="slds-col slds-no-flex slds-align-bottom">
+                  <div class="slds-grid">
+                    <div class="slds-button-space-left" aria-haspopup="true">
+                      <button class="slds-button slds-button--icon-more" aria-haspopup="true">
+                        <span aura:id="svg_content17">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#table"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        <span class="slds-assistive-text">Table</span>
+                        <span aura:id="svg_content18">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon slds-button__icon--x-small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                      </button>
+                      <div id="menu1" class="slds-popover slds-hide">
+                        <div class="slds-dropdown slds-dropdown--small slds-dropdown--menu">
+                          <div class="slds-dropdown__header">
+                            <span class="slds-text-heading--label">Display As</span>
+                          </div>
+                          <ul class="slds-dropdown__list" role="menu">
+                            <li id="menu-0-0" class="slds-dropdown__item slds-has-icon--left slds-is-selected" href="#rename" role="menuitem option" tabindex="0">
+                              <a href="#rename" tabindex="-1" class="slds-truncate">
+                                <span aura:id="svg_content19">
+                                  <![CDATA[
+                                  <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon--left">
+                                    <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#task2"></use>
+                                  </svg>
+                                  ]]>
+                                </span>
+                                Table
+                                <span aura:id="svg_content20">
+                                  <![CDATA[
+                                  <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon--right">
+                                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#table"></use>
+                                  </svg>
+                                  ]]>
+                                </span>
+                              </a>
+                            </li>
+                            <li id="menu-1-1" href="#share" class="slds-dropdown__item slds-has-icon--left" role="menuitem option" tabindex="-1">
+                              <a href="#share" tabindex="-1" class="slds-truncate">Cards 
+                                <span aura:id="svg_content21">
+                                  <![CDATA[
+                                  <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon--right">
+                                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#kanban"></use>
+                                  </svg>
+                                  ]]>
+                                </span>
+                              </a>
+                            </li>
+                            <li id="menu-2-2" href="#delete" class="slds-dropdown__item slds-has-icon--left" role="menuitem option" tabindex="-1">
+                              <a href="#delete" tabindex="-1" class="slds-truncate">Compact List 
+                                <span aura:id="svg_content22">
+                                  <![CDATA[
+                                  <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon--right">
+                                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#side_list"></use>
+                                  </svg>
+                                  ]]>
+                                </span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slds-button-group slds-button-space-left">
+                      <button class="slds-button slds-button--icon-border slds-not-selected">
+                        <span aura:id="svg_content23">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#chart"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        <span class="slds-assistive-text">Chart</span>
+                      </button>
+                      <button class="slds-button slds-button--icon-border slds-not-selected">
+                        <span aura:id="svg_content24">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#filterList"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        <span class="slds-assistive-text">Filter List</span>
+                      </button>
+                      <button class="slds-button slds-button--icon-more">
+                        <span aura:id="svg_content25">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#sort"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        <span class="slds-assistive-text">Sort</span>
+                        <span aura:id="svg_content26">
+                          <![CDATA[
+                          <svg aria-hidden="true" class="slds-button__icon slds-button__icon--x-small">
+                            <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                          </svg>
+                          ]]>
+                        </span>
+                        <span class="slds-assistive-text">More</span>
+                      </button>
+                    </div>
+                    <div class="slds-button-group">
+                      <button class="slds-button slds-button--neutral">Add Contact</button>
+                      <div class="slds-button--last">
+                        <button class="slds-button slds-button--icon-border-filled">
+                          <span aura:id="svg_content27">
+                            <![CDATA[
+                            <svg aria-hidden="true" class="slds-button__icon">
+                              <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                            </svg>
+                            ]]>
+                          </span>
+                          <span class="slds-assistive-text">More Actions</span>
+                        </button>
+                      </div>
+                      <div id="menu2" class="slds-popover slds-hide">
+                        <div class="slds-dropdown slds-dropdown--right slds-dropdown--medium slds-dropdown--menu" style="margin-right:-1rem;">
+                          <ul class="slds-dropdown__list" role="menu">
+                            <li id="menu-3-0" href="#rename" class="slds-dropdown__item slds-has-icon--left" role="menuitem option" tabindex="0">
+                              <a href="#rename" tabindex="-1" class="slds-truncate">Action Item One</a>
+                            </li>
+                            <li id="menu-4-1" href="#share" class="slds-dropdown__item slds-has-icon--left" role="menuitem option" tabindex="-1">
+                              <a href="#share" tabindex="-1" class="slds-truncate">Action Item One</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="slds-text-body--small slds-m-top--x-small">10 items, sorted by name</p>
+            </div>
             <!-- Margin -->
             <div class="components-margin" />
           </div><!-- ./slds end -->

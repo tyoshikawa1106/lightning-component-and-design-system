@@ -13,11 +13,123 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Notifications - Base" />
+            <div class="slds-notify slds-notify--alert slds-theme--inverse-text slds-theme--alert-texture" role="alert">
+              <span class="slds-assistive-text">Info</span>
+              <button class="slds-button slds-notify__close">
+                <span aura:id="svg_content1">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon slds-button__icon--inverse">
+                    <use xlink:href="/resource/SLDS080/assets/icons/action-sprite/svg/symbols.svg#close"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">Close</span>
+              </button>
+              <h2>Base System Alert</h2>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Notifications - Alert" />
+            <div class="demo--alert">
+              <!-- default -->
+              <div class="slds-notify slds-notify--alert slds-theme--alert-texture" role="alert">
+                <span class="slds-assistive-text">Info</span>
+                <button class="slds-button close slds-icon--small">
+                  <span aura:id="svg_content2">
+                    <![CDATA[
+                    <svg aria-hidden="true" class="slds-button__icon slds-button__icon--inverse">
+                      <use xlink:href="/resource/SLDS080/assets/icons/action-sprite/svg/symbols.svg#close"></use>
+                    </svg>
+                    ]]>
+                  </span>
+                  <span class="slds-assistive-text">Close</span>
+                </button>
+                <h2>
+                  <span aura:id="svg_content3">
+                    <![CDATA[
+                    <svg aria-hidden="true" class="slds-icon icon-text-email slds-icon--small slds-m-right--x-small">
+                      <use xlink:href="/resource/SLDS080/assets/icons/action-sprite/svg/symbols.svg#email"></use>
+                    </svg>
+                    ]]>
+                  </span>
+                  Base System Alert
+                </h2>
+              </div>
+              <!-- success -->
+              <div class="slds-notify slds-notify--alert slds-theme--success slds-theme--alert-texture" role="alert">
+                <span class="slds-assistive-text">Info</span>
+                <button class="slds-button close slds-icon--small">
+                  <span aura:id="svg_content4">
+                    <![CDATA[
+                    <svg aria-hidden="true" class="slds-button__icon slds-button__icon--inverse">
+                      <use xlink:href="/resource/SLDS080/assets/icons/action-sprite/svg/symbols.svg#close"></use>
+                    </svg>
+                    ]]>
+                  </span>
+                  <span class="slds-assistive-text">Close</span>
+                </button>
+                <h2>
+                  <span aura:id="svg_content5">
+                    <![CDATA[
+                    <svg aria-hidden="true" class="slds-icon icon-text-email slds-icon--small slds-m-right--x-small">
+                      <use xlink:href="/resource/SLDS080/assets/icons/action-sprite/svg/symbols.svg#email"></use>
+                    </svg>
+                    ]]>
+                  </span>
+                  Base System Alert
+                </h2>
+              </div>
+              <!-- error -->
+              <div class="slds-notify slds-notify--alert slds-theme--error slds-theme--alert-texture" role="alert">
+                <span class="slds-assistive-text">Info</span>
+                <button class="slds-button close slds-icon--small">
+                  <span aura:id="svg_content6">
+                    <![CDATA[
+                    <svg aria-hidden="true" class="slds-button__icon slds-button__icon--inverse">
+                      <use xlink:href="/resource/SLDS080/assets/icons/action-sprite/svg/symbols.svg#close"></use>
+                    </svg>
+                    ]]>
+                  </span>
+                  <span class="slds-assistive-text">Close</span>
+                </button>
+                <h2>
+                  <span aura:id="svg_content7">
+                    <![CDATA[
+                    <svg aria-hidden="true" class="slds-icon icon-text-email slds-icon--small slds-m-right--x-small">
+                      <use xlink:href="/resource/SLDS080/assets/icons/action-sprite/svg/symbols.svg#email"></use>
+                    </svg>
+                    ]]>
+                  </span>
+                  Base System Alert
+                </h2>
+              </div>
+              <!-- offline -->
+              <div class="slds-notify slds-notify--alert slds-theme--offline slds-theme--alert-texture" role="alert">
+                <span class="slds-assistive-text">Info</span>
+                <button class="slds-button close slds-icon--small">
+                  <span aura:id="svg_content8">
+                    <![CDATA[
+                    <svg aria-hidden="true" class="slds-button__icon slds-button__icon--inverse">
+                      <use xlink:href="/resource/SLDS080/assets/icons/action-sprite/svg/symbols.svg#close"></use>
+                    </svg>
+                    ]]>
+                  </span>
+                  <span class="slds-assistive-text">Close</span>
+                </button>
+                <h2>
+                  <span aura:id="svg_content9">
+                    <![CDATA[
+                    <svg aria-hidden="true" class="slds-icon icon-text-email slds-icon--small slds-m-right--x-small">
+                      <use xlink:href="/resource/SLDS080/assets/icons/action-sprite/svg/symbols.svg#email"></use>
+                    </svg>
+                    ]]>
+                  </span>
+                  Base System Alert
+                </h2>
+              </div>
+            </div>
             <!-- Margin -->
             <div class="components-margin" />
           </div><!-- ./slds end -->
