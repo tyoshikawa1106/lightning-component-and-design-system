@@ -1,4 +1,4 @@
-# lightning-component-and-design-system
+## lightning-component-and-design-system
 <a href="https://login.salesforce.com/packaging/installPackage.apexp?p0=04t28000000MX8c" target="_blank">
   <img alt="Deploy to Salesforce"
     src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
