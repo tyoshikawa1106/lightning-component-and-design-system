@@ -13,15 +13,76 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Pills - Base" />
+            <span class="slds-pill"><a href="#" class="slds-pill__label">Pill Label</a>
+              <button class="slds-button slds-button--icon-bare">
+                <span aura:id="svg_content1">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">Remove</span>
+              </button>
+            </span>
             <!-- Margin -->
             <div class="components-margin" />
-          </div><!-- ./slds end -->
-        </div>
+
+            <c:LCLDS_SectionHeader title="Pills - Unlink" />
+            <span class="slds-pill">
+              <span class="slds-pill__label">Pill Label</span>
+            </span>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Pills - Icon" />
+            <span class="slds-pill">
+              <a href="#" class="slds-pill__label">
+                <span aura:id="svg_content2">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-icon slds-icon-standard-account slds-icon--small">
+                    <use xlink:href="/resource/SLDS080/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                  </svg>
+                  ]]>
+                </span>
+                Pill Label
+              </a>
+              <button class="slds-button slds-button--icon-bare">
+                <span aura:id="svg_content3">
+                  <![CDATA[
+                  <svg aria-hidden="true" class="slds-button__icon">
+                    <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+                  </svg>
+                  ]]>
+                </span>
+                <span class="slds-assistive-text">Remove</span>
+              </button>
+            </span>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Pills - Portrait" />
+            <span class="slds-pill">
+              <a href="#" class="slds-pill__label">
+                <span class="slds-avatar slds-avatar--circle slds-avatar--x-small">
+                  <img src="/resource/SLDS080/assets/images/avatar2.jpg" alt="" />
+                </span>Pill Label</a>
+                <button class="slds-button slds-button--icon-bare">
+                  <span aura:id="svg_content4">
+                    <![CDATA[
+                    <svg aria-hidden="true" class="slds-button__icon">
+                      <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+                    </svg>
+                    ]]>
+                  </span>
+                  <span class="slds-assistive-text">Remove</span>
+                </button>
+              </span>
+              <!-- Margin -->
+              <div class="components-margin" />
+            </div><!-- ./slds end -->
+          </div>
         <div class="col-md-3">
           <c:LCLDS_SideMenu />
         </div>

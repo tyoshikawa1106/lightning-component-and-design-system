@@ -13,11 +13,162 @@
       <div class="row">
         <div class="col-md-9">
           <div class="slds">
-            <c:LCLDS_SectionHeader title="Badges" />
-            <span class="slds-badge">Label</span>
-            <span class="slds-badge slds-theme--default">Label</span>
-            <span class="slds-badge slds-theme--shade">Label</span>
-            <span class="slds-badge slds-theme--inverse">Label</span>
+            <c:LCLDS_SectionHeader title="Picklists - Base" />
+            <div style="height: 200px;">
+              <div class="slds-form-element">
+                <div aria-expanded="true" class="slds-picklist">
+                  <button class="slds-button slds-button--neutral slds-picklist__label" aria-haspopup="true">
+                    <span class="slds-truncate">Select an Option</span>
+                    <span aura:id="svg_content1">
+                      <![CDATA[
+                      <svg aria-hidden="true" class="slds-icon">
+                        <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                      </svg>
+                      ]]>
+                    </span>
+                  </button>
+                  <div class="slds-dropdown slds-dropdown--left slds-dropdown--small slds-dropdown--menu">
+                    <ul class="slds-dropdown__list" role="menu">
+                      <li id="menu-55-0" href="#" class="slds-dropdown__item slds-has-icon--left" role="menuitem option" tabindex="0"><a href="#" tabindex="-1" class="slds-truncate">Option One</a></li>
+                      <li id="menu-56-1" href="#" class="slds-dropdown__item slds-has-icon--left" role="menuitem option" tabindex="-1"><a href="#" tabindex="-1" class="slds-truncate">Option Two</a></li>
+                      <li id="menu-57-2" href="#" class="slds-dropdown__item slds-has-icon--left" role="menuitem option" tabindex="-1"><a href="#" tabindex="-1" class="slds-truncate">Option Three</a></li>
+                      <li id="menu-58-3" href="#" class="slds-dropdown__item slds-has-icon--left" role="menuitem option" tabindex="-1"><a href="#" tabindex="-1" class="slds-truncate">Option Four</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Picklists - Multi Select" />
+            <div style="height: 250px;">
+              <div class="slds-picklist--draggable slds-grid">
+                <div class="slds-form-element">
+                  <span class="slds-form-element__label" aria-label="select-1">First Category</span>
+                  <div class="slds-picklist slds-picklist--multi">
+                    <ul class="slds-picklist__options slds-picklist__options--multi shown">
+                      <li draggable="true" id="po-0-0" class="slds-picklist__item slds-has-icon has-icon--left" aria-selected="false" tabindex="0" role="option">
+                        <span class="slds-truncate">
+                          <span>Option One</span>
+                        </span>
+                      </li>
+                      <li draggable="true" id="po-1-1" class="slds-picklist__item slds-has-icon has-icon--left" aria-selected="false" tabindex="-1" role="option">
+                        <span class="slds-truncate">
+                          <span>Option Two</span>
+                        </span>
+                      </li>
+                      <li draggable="true" id="po-2-2" class="slds-picklist__item slds-has-icon has-icon--left" aria-selected="false" tabindex="-1" role="option">
+                        <span class="slds-truncate">
+                          <span>Option Three</span>
+                        </span>
+                      </li>
+                      <li draggable="true" id="po-3-3" class="slds-picklist__item slds-has-icon has-icon--left" aria-selected="false" tabindex="-1" role="option">
+                        <span class="slds-truncate">
+                          <span>Option Four</span>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="slds-grid slds-grid--vertical">
+                  <button class="slds-button slds-button--icon-container">
+                    <span aura:id="svg_content2">
+                      <![CDATA[
+                      <svg aria-hidden="true" class="slds-button__icon">
+                        <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#left"></use>
+                      </svg>
+                      ]]>
+                    </span>
+                    <span class="slds-assistive-text">Pick list</span>
+                  </button>
+                  <button class="slds-button slds-button--icon-container">
+                    <span aura:id="svg_content3">
+                      <![CDATA[
+                      <svg aria-hidden="true" class="slds-button__icon">
+                        <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#right"></use>
+                      </svg>
+                      ]]>
+                    </span>
+                    <span class="slds-assistive-text">Pick list</span>
+                  </button>
+                </div>
+                <div class="slds-form-element">
+                  <span class="slds-form-element__label" aria-label="select-2">Second Category</span>
+                  <div class="slds-picklist slds-picklist--multi">
+                    <ul class="slds-picklist__options slds-picklist__options--multi shown"></ul>
+                  </div>
+                </div>
+                <div class="slds-grid slds-grid--vertical">
+                  <button class="slds-button slds-button--icon-container">
+                    <span aura:id="svg_content4">
+                      <![CDATA[
+                      <svg aria-hidden="true" class="slds-button__icon">
+                        <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#up"></use>
+                      </svg>
+                      ]]>
+                    </span>
+                    <span class="slds-assistive-text">Pick list</span>
+                  </button>
+                  <button class="slds-button slds-button--icon-container">
+                    <span aura:id="svg_content5">
+                      <![CDATA[
+                      <svg aria-hidden="true" class="slds-button__icon">
+                        <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                      </svg>
+                      ]]>
+                    </span>
+                    <span class="slds-assistive-text">Pick list</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Margin -->
+            <div class="components-margin" />
+
+            <c:LCLDS_SectionHeader title="Picklists - Quickfind" />
+            <div style="height: 200px;">
+              <div class="slds-form-element">
+                <div class="slds-form-element">
+                  <div aria-expanded="true" class="slds-picklist slds-picklist--quickfind">
+                    <button class="slds-button slds-button--neutral slds-picklist__label" aria-haspopup="true">
+                      <span class="slds-truncate">Select an option</span>
+                      <span aura:id="svg_content6">
+                        <![CDATA[
+                        <svg aria-hidden="true" class="slds-icon">
+                          <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+                        </svg>
+                        ]]>
+                      </span>
+                    </button>
+                    <div class="slds-dropdown slds-dropdown--left slds-dropdown--small slds-dropdown--menu">
+                      <div class="slds-dropdown__header">
+                        <div placeholder="Find in list..." class="slds-input-has-icon slds-input-has-icon--left slds-m-bottom--x-small">
+                          <span aura:id="svg_content7">
+                            <![CDATA[
+                            <svg aria-hidden="true" class="slds-input__icon">
+                              <use xlink:href="/resource/SLDS080/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                            </svg>
+                            ]]>
+                          </span>
+                          <label class="slds-assistive-text" for="input__filter">Find in list...</label>
+                          <input id="input__filter" class="slds-input" type="text" placeholder="Find in list..." />
+                        </div>
+                        <span class="slds-text-heading--label">Lists</span>
+                      </div>
+                      <ul class="slds-dropdown__list" role="menu">
+                        <li id="menu-59-0" class="slds-dropdown__item slds-has-icon--left slds-dropdown__item has-icon--left" href="#" role="menuitem option" tabindex="0"><a href="#" tabindex="-1" class="slds-truncate">Opportunities Closing this Quarter</a></li>
+                        <li id="menu-60-1" class="slds-dropdown__item slds-has-icon--left slds-dropdown__item has-icon--left" href="#" role="menuitem option" tabindex="-1"><a href="#" tabindex="-1" class="slds-truncate">All Opportunities</a></li>
+                        <li id="menu-61-2" class="slds-dropdown__item slds-has-icon--left slds-dropdown__item has-icon--left" href="#" role="menuitem option" tabindex="-1"><a href="#" tabindex="-1" class="slds-truncate">My Opportunities</a></li>
+                        <li id="menu-62-3" class="slds-dropdown__item slds-has-icon--left slds-dropdown__item has-icon--left" href="#" role="menuitem option" tabindex="-1"><a href="#" tabindex="-1" class="slds-truncate">United Partner Opportunities</a></li>
+                        <li id="menu-63-4" class="slds-dropdown__item slds-has-icon--left slds-dropdown__item has-icon--left" href="#" role="menuitem option" tabindex="-1"><a href="#" tabindex="-1" class="slds-truncate">Acme Inc Opportunities</a></li>
+                        <li id="menu-64-5" class="slds-dropdown__item slds-has-icon--left slds-dropdown__item has-icon--left" href="#" role="menuitem option" tabindex="-1"><a href="#" tabindex="-1" class="slds-truncate">My Opportunities about 80k</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <!-- Margin -->
             <div class="components-margin" />
           </div><!-- ./slds end -->
